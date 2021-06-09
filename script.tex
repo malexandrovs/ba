@@ -1,0 +1,201 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{dirtytalk}
+\usepackage{color}
+\usepackage[acronym]{glossaries}
+\usepackage{biblatex}
+\addbibresource{bib.bib}
+\title{Working title}
+\author{Mischa}
+
+
+\makeglossaries
+
+\newacronym{mrinfes}{mRINFES}{Moral Responsibility is Important and Necessary for a Functional and Ethical Society}
+\newacronym{cr}{CR}{Control Requirement}
+\newacronym{ai}{AI}{Artificial Intelligence}
+\newacronym{ml}{ML}{Machine Learning}
+\newacronym{aws}{AWS}{Autonomous Weapon System}
+\begin{document}
+\begin{titlepage}
+	\maketitle
+\end{titlepage}
+\tableofcontents
+
+\section{Introduction}
+Instrumental Theory
+For most of the time human technology has been used as a tool.
+The user or manufacturer has the responisibility for what the tool does.
+This has been working so far quite well and the instrumental theory was a valid
+and accepted extension of our moral understanding.
+We are now in a time, where new technologies, that exhibit more and more
+autonomy challenge this stance, that they are mere tools. How should we handle
+des question of responisibility with this new technology? Is there are
+responisibility gap?
+
+Introduction of new technologies: ML
+
+\subsection{The Dirty Problem}
+
+According to Matthias \cite{Matthias_2004} the reason why we can hold either the
+manufacturer or the operator of a machine responsible for what it effects in the
+world, is because we can sensibly say that they are the moral agents who were in
+control of said machine. Matthias claims that responsibility implies control:
+
+\vspace{.8em}
+\say{[An] agent can be considered responsible only if he  knows the particular
+facts surrounding his action, and if he is able to freely form a decision to
+act, and to select one of a suitable set of available alternative actions based
+on these facts.} \cite[p.175]{Matthias_2004}
+
+\vspace{.8em}
+This means that we can only hold someone responsible for something they have
+done if they had sufficient control over their action.
+This is widely refered to as the Control Requirement (\acrshort{cr}) [zitieren].
+
+Converesly, if an agent does not have sufficient control, we can acsribe at most
+partial responsibility, if any, to them.\\
+This notion of control complements the intrumental theroy nicely: The
+manufacturer and operator have control over their machines, thus they are the
+ones who are responsible if something happens because of the machines.
+It is then very clear how to assign responisbility in critical situations: If the operator uses the
+machine in accordance with the manufactureres specifications and something goes
+wrong, we say that the manufacturer is responsible. If the operator deviates
+from the manufacturers specifications and something goes wrong, we say the
+operator is responsible.
+
+Enter Machine Learning:
+We are now in a time where computer scientists and engineers work on increasing
+the autonomy of their programs and machines by using techniques that can be
+bundeled by the term \textit{machine learning} \acrshort{ml}. `Autonomy' in this sense
+means that we allow the technology to make it's own decisions based on it's
+prior experience without the programmer or user knowing what the decision is
+going to be. 
+
+%Put here: Machines can play Go, AWS, medical exper systems, even the youtube
+%algorithm
+
+This leads to a change in the classical roles of the manufacturer
+(programmer) and operator (user) insofar that the amount of control they exert
+over the machines diminishes as the machines become more and more autonomous.
+Arguably, our traditional ways of ascribing responsibility are challenged. If we
+agree with the CR and 
+
+%Current practices in Artificial Intelligence (\acrshort{ai}) challenge this
+%stance. The classical roles of manufacturer (programmer) and operator (user)
+%change insofar that the amount of control they exert over the machines
+%diminishes as the machines become increasingly autonomous.
+
+Current practices in Artificial Intelligence (\acrshort{ai}) aim at increasing
+the autonomy of machines and their software [zitieren]. `Autonomy' in this sense
+means that we allow the technology to make it's own decisions based on it's
+prior experience without the programmer or user knowing what the decision is
+going to be. In other words, they reduce the amount of control the programmer or
+user has over the machines. This is primarily the case for technology that uses
+machine learning to acquire a certain behaviour. [Passt hier eine beschreibung
+von machine learning rein?] At the same time the actions of
+such technologies have more and more impact on the people surrounding them
+[zitieren].\\
+
+The real question:
+Now here comes the question of this work: Who can sensibly be held responsible for the
+actions of an autonomous machine?
+Who is responsible if a driverless car runs over a person? Who is responsible if
+an artificial physician proposes a wrong treatment for a patient? Who is
+responisble for a war crime commited by an autonomous weapon system
+(\acrshort{aws})?\footnote{Talk about asymetry of blame and reward. Refer to
+later in next section perhaps, because here I mention responisbility only in the
+sense of blaming someone}\\
+
+Matthias says that our current practices of ascribing moral responsibility
+fail at finding an appropriate target when an autonomous machine is
+strongly involved in a situation. He calls this problem \textit{the
+responsibility gap}.\\
+%are not designed for dealing with autonomous machines and we are, thus, facing
+%a responsibility gap. \\
+
+The considerations above, do not entail that our current practices of
+dealing with the effects machines have on our world must necessarily change,
+but rather that the contemporary and foreseeable developments in AI and ML
+challenge our current practices and motivate their reevaluation.
+
+On the following pages I will first give descriptions of various accounts for
+moral responsiblity and will then proceed to describing and debating the
+different approaches philosophers have proposed for dealing with the assumed
+responisbility gap.
+
+%BIS HIER
+%
+%The idea that manufacturers and users lose control over an autonomous machine
+%does not only stem from the theoretical definition of the word 'autonomous'. As
+%Matthias argues, the loss of control can be found in the very way we put
+%ML-techniques into practice \cite[p.181-182]{Matthias_2004}. 
+%
+%Russell and Norvig define an agent as learning 
+%
+%\vspace{.8em}
+%\say{if it improves its performance on future taskes after making observations
+%about the real world.}\cite[p.693]{russell2010artificial}
+%
+%\vspace{.8em}
+%
+%Technology that is being developed today often has the aim to become more and
+%more autonomous. Autonomous in this sense means that we allow the technology to
+%make it's own decisions based on it's prior experience without the programmer or
+%user knowing what the decision is going to be. This is primarily the case for
+%technology that uses machine learning to acquire a certain behaviour.
+%As Matthias \cite{Matthias_2004} points out, the growing autonomy challenges our
+%existing pracices for ascription of moral responsibility. Matthias says that
+%in order to be responsible for something, one requires to be in control of it.
+%This widely refered to as the Control Requirement (\acrshort{cr}) [zitieren].
+%It follows, that neither the programmer, nor the user of an autonomous machine,
+%can sensibly be said to be responsible for the actions of that machine.
+
+\section{What is Moral Responsibility}
+When we talk about moral responsibility, we must probably first explore what we
+mean by that term. Specifically we need to answer two central questions:\\
+
+\begin{enumerate}
+	\item In which cases can somebody be held responsibly?
+	\item What does moral responsibility entail?
+\end{enumerate}
+%The answer to the second question can easily be regarded as a functional
+%definition of moral responsibility.
+For the sake of a focused and productive argumentation I will, for the duration
+of this entire work, assume that the concept of moral responisibility is
+important and is necessary for a functioning and ethical society
+(\acrshort{mrinfes}) without
+providing an argument for this assumption. Questioning this assumption would, I
+believe, fill a whole other bachelor's thesis and likely even more. In the sense of
+this assumption, I will also ignore the debate around free will and how it is
+connected to moral responisbility.
+
+The Control Requirement
+More complex models of responsibility
+
+Moral Agency
+\section{Can we Bridge the Gap}
+
+Essentially: How do machines fit into these frameworks
+Upper bound - lower bound of moral agents
+
+Yes we can: Here is how
+Instrumentalism 2.0
+Machine Ethics
+Hybrid responisibility
+
+No, we cant: Here is why:
+
+\section{Real World Problems}
+\subsection{Autonomous Weapon Systems}
+\subsection{Healthcare}
+\subsection{COMPAS}
+\section{Discussion}
+\section{Conclusion}
+\section{Acknowledgements}
+\clearpage
+
+\printglossary[type=\acronymtype]
+\printglossary
+\printbibliography
+\end{document}
