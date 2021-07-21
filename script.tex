@@ -3,7 +3,7 @@
 \usepackage{dirtytalk}
 \usepackage{color}
 \usepackage[acronym]{glossaries}
-\usepackage{biblatex}
+\usepackage[backend=biber,style=alphabetic,citestyle=authoryear]{biblatex}
 \addbibresource{bib.bib}
 \title{Working title}
 \author{Mischa}
@@ -16,6 +16,15 @@
 \newacronym{ai}{AI}{Artificial Intelligence}
 \newacronym{ml}{ML}{Machine Learning}
 \newacronym{aws}{AWS}{Autonomous Weapon System}
+
+
+
+%Numbered environment
+\newcounter{example}[section]
+\newenvironment{example}[1][]{\refstepcounter{example}\par\medskip
+   \noindent \textbf{Example~\theexample. #1} \rmfamily}{\medskip}
+
+
 \begin{document}
 \begin{titlepage}
 	\maketitle
@@ -49,16 +58,17 @@ responsible for the effects, that the technology has on our world, whether they
 achieve the end or not (in the case of the dam-architect).
 To view technology as tools or instruments used by humans and the humans as the ultimately
 responsible entities for the technology is what Heidegger calls the \textit{instrumentalist
-definition of technology} \cite{heidegger1977technology}. 
+definition of technology} (\cite{heidegger1977technology}). 
 
 \say{We ask the question concerning technology when we ask what it is. Everyone
 knows the two statements that answer our question. One says: Technology is a means to an end. The
-other says: Technology is a human activity.}\cite[p.4]{heidegger1977technology}
+other says: Technology is a human
+activity.}(\cite[p.4]{heidegger1977technology})
 
 Thus, according to the instrumentalist definition, technology is something that
 is intimately connected to humans and inherits its moral standing from the
 quality of the \textit{human} end that it tries to achieve and from the way
-it is used by \textit{humans}. Technology is  not moral on its own. Only in the
+it is used by \textit{humans}. Technology is not moral on its own. Only in the
 context of human ends and actions. If it is humans that decide to use technlogy
 for some end it is naturally them, who are responsible for the results.\\
 
@@ -88,7 +98,7 @@ to decide on their own whether to kill a target or not.
 
 %Instrumental Theory:
 
-%\cite{johnson2006computer}: Computers are moral entites but not moral agents
+%(\cite{johnson2006computer}): Computers are moral entites but not moral agents
 %For most of the time human technology has been used as a tool.
 %The user or manufacturer has the responisibility for what the tool does.
 %This has been working so far quite well and the instrumental theory was a valid
@@ -102,16 +112,16 @@ to decide on their own whether to kill a target or not.
 
 \subsection{The Dirty Problem}
 
-According to Matthias \cite{Matthias_2004} the reason why we can hold either the
+According to Matthias (\cite{Matthias_2004}) the reason why we can hold either the
 manufacturer or the operator of a machine responsible for what it effects in the
 world, is because we can sensibly say that they are the moral agents who were in
 control of said machine. Matthias claims that responsibility implies control:
 
 \vspace{.8em}
-\say{[An] agent can be considered responsible only if he  knows the particular
+\say{[An] agent can be considered responsible only if he knows the particular
 facts surrounding his action, and if he is able to freely form a decision to
 act, and to select one of a suitable set of available alternative actions based
-on these facts.} \cite[p.175]{Matthias_2004}
+on these facts.} (\cite[p.175]{Matthias_2004})
 
 \vspace{.8em}
 This means that we can only hold someone responsible for something they have
@@ -127,7 +137,7 @@ It is then very clear how to assign responisbility in critical situations: If th
 machine in accordance with the manufactureres specifications and something goes
 wrong, we say that the manufacturer is responsible. If the operator deviates
 from the manufacturers specifications and something goes wrong, we say the
-operator is responsible\cite[p.175]{Matthias_2004}
+operator is responsible(\cite[p.175]{Matthias_2004})
 
 Enter Machine Learning:
 We are now in a time where computer scientists and engineers work on increasing
@@ -194,13 +204,13 @@ responisbility gap.
 %The idea that manufacturers and users lose control over an autonomous machine
 %does not only stem from the theoretical definition of the word 'autonomous'. As
 %Matthias argues, the loss of control can be found in the very way we put
-%ML-techniques into practice \cite[p.181-182]{Matthias_2004}. 
+%ML-techniques into practice (\cite[p.181-182]{Matthias_2004}). 
 %
 %Russell and Norvig define an agent as learning 
 %
 %\vspace{.8em}
 %\say{if it improves its performance on future taskes after making observations
-%about the real world.}\cite[p.693]{russell2010artificial}
+%about the real world.}(\cite[p.693]{russell2010artificial})
 %
 %\vspace{.8em}
 %
@@ -209,7 +219,7 @@ responisbility gap.
 %make it's own decisions based on it's prior experience without the programmer or
 %user knowing what the decision is going to be. This is primarily the case for
 %technology that uses machine learning to acquire a certain behaviour.
-%As Matthias \cite{Matthias_2004} points out, the growing autonomy challenges our
+%As Matthias (\cite{Matthias_2004}) points out, the growing autonomy challenges our
 %existing pracices for ascription of moral responsibility. Matthias says that
 %in order to be responsible for something, one requires to be in control of it.
 %This widely refered to as the Control Requirement (\acrshort{cr}) [zitieren].
@@ -233,7 +243,7 @@ practices and tries to explain the mechanisms behind them. These mechanisms lay
 the groundwork for what can be understood as moral responsibility.
 In the centre of Strawson's argumentations lies \say{the very great importance that
 we attach to the attitudes and intetions towards us of other human beings
-[...]}\cite[p.5]{Strawson1962}. In other words, we care a lot about how other
+[...]}(\cite[p.5]{Strawson1962}). In other words, we care a lot about how other
 people treat us. We like it, if other people treat us with what we interpret as
 respect and goodwill and we do not like it, if other people treat us with what
 we interpret as illwill or indifference. Depending on how other people treat us
@@ -246,20 +256,77 @@ praising other people.
 
 BEISPIEL EINFÜGEN!!
 
-The reactive attitudes I have described until now are generally about close
+
+\begin{example}
+	Matt is seventeen and likes playing computer games. His ten year old brother
+	Charly often watches him play and frequently asks Matt, if he can play
+	too. Matt usually denies Charly's request. Charly finds this unfair
+	because Matt can play so much and he can only watch. Charly develops
+	slight resentment against his brother because in his eyes, Matt
+	does not care enough about him to fulfill Charly's wish of playing.
+	Eventually, Charly runs to his mother and complains about Matt's
+	unwillingness to allow Charly to play on the computer.
+\end{example}
+
+The primitive example above portrays the mechanism, Strawson tries to describe.
+In the situation Charly interprets that his brother, Matt, treats him with an
+attitude he does not like: indifference. This prompts Charly to develop
+resentment towards Matt as a reactive attitude. Charly's going to his mother and
+complaining about Matt is his way of blaming Matt.
+
+Strawson stresses the importance of attitude behind an action, for we evaluate
+other people and their actions strongly on the basis of their attitudes. The
+same action with different attitudes elicits different reactions from us.
+Strawson's example is about someone stepping on his hand. If P-Boy
+found that they did it accidentally and they were sorry for injuring him, he
+would feel the pain in his hand, but probably no (appropriate) resentment
+towards them. If, on the other hand, he found that they stepped on his hand out
+of malevolence or were indifferent to what had happened, Strawsons reaction
+would include some kind of resentment towards the other person. The same is
+true, for when another person benefits us in some way. The degree of gratitude
+we would feel towards them would differ, depending on whether they did it on
+purpose and out of good will or accidentally (\cite[p.6]{Strawson1962})
+
+I should also point out at this point, just like Strawson repeatedly does in his
+paper(\cite[p.5, p.7]{Strawson1962}), that the way reactive attitudes work is
+much more complicated than can be explained in this text. There is an
+complicated interplay between different parties and the attitudes vary on a
+broad spectrum as well as in intensity.\\
+
+The type of reactive attitudes I have described until now is generally about close
 personal interactions with other people. They develop because of the way other
-people treat specifically us. Strawson introduces another class reactive
-attitudes, which he calls vicarious or impersonal reactive attitudes. These
-attitudes target the behaviour or will of others independent of who is affected
-by the behaviour or will. We give these reactive attitudes the qualifier
-\textit{'moral'} and the obejcts of such reactive attitudes are said to have
-done something that has moral value (positive or negative) to us.
+people treat specifically \textit{us}. 
+However, reactive attitudes are not only a personal phenomenon but are also developed
+and affected by how the objects of these attitudes treat other people.
+Thus, Strawson introduces another class of reactive attitudes, which he calls
+\textit{vicarious} or \textit{impersonal} reactive attitudes. These attitudes
+target the behaviour or will of others independent of who is affected by the
+behaviour or will. To be clear: These impersonal reactive attitudes can also be
+developed if \textit{we} are the suffering party, but if somebody else was the
+victim, we would develop the same reactive attitudes towards the target.
+
+THE 'TO BE CLEAR' IS NOT AS CLEAR AS IT SHOULD BE.
+
+Strawson proceeds and gives these reactive attitudes the
+qualifier \textit{'moral'} and the objects of such reactive attitudes are said
+to have done something that has moral value (positive or negative) to us.
+
+
+\begin{example}
+	Clara likes to read the newspaper in the morning. Today, she finds an
+	article about a CEO of a big international company and how he knowingly
+	choses suppliers that violate human rights to drive the price of their
+	commodities down. Clara does not like this behaviour.
+\end{example}
+
+
+It is clear that Clara is not personally affected (at least not directly) by the
+behaviour of the CEO. She still develops a reactive attitude towards him on the
+basis of his indifference regarding humand rights and the people who suffer
+because of it. 
 
 
 
-Reactive attitudes are not only a personal phenomenon (i.e. a result of how
-other people treat us) but are also developed and affected by how the objects of
-these attitudes treat other people.
 
 
 According to Strawson, Moral Responsibility must not be a metaphysical entity,
