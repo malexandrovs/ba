@@ -1,0 +1,468 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{anyt/global//global/global}
+    \entry{heidegger1977technology}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=79b1e6f4199aeb3f853ca7cba607bfdc}{%
+           family={Heidegger},
+           familyi={H\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Garland Publishing, Inc.}%
+      }
+      \strng{namehash}{79b1e6f4199aeb3f853ca7cba607bfdc}
+      \strng{fullhash}{79b1e6f4199aeb3f853ca7cba607bfdc}
+      \strng{bibnamehash}{79b1e6f4199aeb3f853ca7cba607bfdc}
+      \strng{authorbibnamehash}{79b1e6f4199aeb3f853ca7cba607bfdc}
+      \strng{authornamehash}{79b1e6f4199aeb3f853ca7cba607bfdc}
+      \strng{authorfullhash}{79b1e6f4199aeb3f853ca7cba607bfdc}
+      \field{labelalpha}{Hei77}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Translated by William Lovitt}
+      \field{title}{The Question Concerning Technology and Other Essays}
+      \field{year}{1977}
+    \endentry
+    \entry{Matthias_2004}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=07381d1f823d79ccfad2d3769bfa961c}{%
+           family={Matthias},
+           familyi={M\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media {LLC}}%
+      }
+      \strng{namehash}{07381d1f823d79ccfad2d3769bfa961c}
+      \strng{fullhash}{07381d1f823d79ccfad2d3769bfa961c}
+      \strng{bibnamehash}{07381d1f823d79ccfad2d3769bfa961c}
+      \strng{authorbibnamehash}{07381d1f823d79ccfad2d3769bfa961c}
+      \strng{authornamehash}{07381d1f823d79ccfad2d3769bfa961c}
+      \strng{authorfullhash}{07381d1f823d79ccfad2d3769bfa961c}
+      \field{labelalpha}{Mat04}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ethics and Information Technology}
+      \field{number}{3}
+      \field{title}{The responsibility gap: Ascribing responsibility for the actions of learning automata}
+      \field{volume}{6}
+      \field{year}{2004}
+      \field{pages}{175\bibrangedash 183}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1007/s10676-004-3422-1
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007%2Fs10676-004-3422-1
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007%2Fs10676-004-3422-1
+      \endverb
+    \endentry
+    \entry{Shoemaker_2011}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=707fb9cf938d83b6678695cba0c85e9d}{%
+           family={Shoemaker},
+           familyi={S\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {University of Chicago Press}%
+      }
+      \strng{namehash}{707fb9cf938d83b6678695cba0c85e9d}
+      \strng{fullhash}{707fb9cf938d83b6678695cba0c85e9d}
+      \strng{bibnamehash}{707fb9cf938d83b6678695cba0c85e9d}
+      \strng{authorbibnamehash}{707fb9cf938d83b6678695cba0c85e9d}
+      \strng{authornamehash}{707fb9cf938d83b6678695cba0c85e9d}
+      \strng{authorfullhash}{707fb9cf938d83b6678695cba0c85e9d}
+      \field{labelalpha}{Sho11}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ethics}
+      \field{month}{4}
+      \field{number}{3}
+      \field{title}{Attributability, Answerability, and Accountability: Toward a Wider Theory of Moral Responsibility}
+      \field{volume}{121}
+      \field{year}{2011}
+      \field{pages}{602\bibrangedash 632}
+      \range{pages}{31}
+      \verb{doi}
+      \verb 10.1086/659003
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1086%2F659003
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1086%2F659003
+      \endverb
+    \endentry
+    \entry{smith2005responsibility}{article}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=da7bab9a94b9902cf6420f84a4e09462}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Angela\bibnamedelima M},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {The University of Chicago Press}%
+      }
+      \strng{namehash}{da7bab9a94b9902cf6420f84a4e09462}
+      \strng{fullhash}{da7bab9a94b9902cf6420f84a4e09462}
+      \strng{bibnamehash}{da7bab9a94b9902cf6420f84a4e09462}
+      \strng{authorbibnamehash}{da7bab9a94b9902cf6420f84a4e09462}
+      \strng{authornamehash}{da7bab9a94b9902cf6420f84a4e09462}
+      \strng{authorfullhash}{da7bab9a94b9902cf6420f84a4e09462}
+      \field{extraname}{1}
+      \field{labelalpha}{Smi05}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ethics}
+      \field{number}{2}
+      \field{title}{Responsibility for attitudes: Activity and passivity in mental life}
+      \field{volume}{115}
+      \field{year}{2005}
+      \field{pages}{236\bibrangedash 271}
+      \range{pages}{36}
+    \endentry
+    \entry{Smith_2007}{article}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=da7bab9a94b9902cf6420f84a4e09462}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Angela\bibnamedelima M},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media {LLC}}%
+      }
+      \strng{namehash}{da7bab9a94b9902cf6420f84a4e09462}
+      \strng{fullhash}{da7bab9a94b9902cf6420f84a4e09462}
+      \strng{bibnamehash}{da7bab9a94b9902cf6420f84a4e09462}
+      \strng{authorbibnamehash}{da7bab9a94b9902cf6420f84a4e09462}
+      \strng{authornamehash}{da7bab9a94b9902cf6420f84a4e09462}
+      \strng{authorfullhash}{da7bab9a94b9902cf6420f84a4e09462}
+      \field{extraname}{2}
+      \field{labelalpha}{Smi07}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Ethics}
+      \field{month}{1}
+      \field{number}{4}
+      \field{title}{On Being Responsible and Holding Responsible}
+      \field{volume}{11}
+      \field{year}{2007}
+      \field{pages}{465\bibrangedash 484}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1007/s10892-005-7989-5
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007%2Fs10892-005-7989-5
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007%2Fs10892-005-7989-5
+      \endverb
+    \endentry
+    \entry{smith2008control}{article}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=da7bab9a94b9902cf6420f84a4e09462}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Angela\bibnamedelima M},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{da7bab9a94b9902cf6420f84a4e09462}
+      \strng{fullhash}{da7bab9a94b9902cf6420f84a4e09462}
+      \strng{bibnamehash}{da7bab9a94b9902cf6420f84a4e09462}
+      \strng{authorbibnamehash}{da7bab9a94b9902cf6420f84a4e09462}
+      \strng{authornamehash}{da7bab9a94b9902cf6420f84a4e09462}
+      \strng{authorfullhash}{da7bab9a94b9902cf6420f84a4e09462}
+      \field{extraname}{3}
+      \field{labelalpha}{Smi08}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Philosophical Studies}
+      \field{number}{3}
+      \field{title}{Control, responsibility, and moral assessment}
+      \field{volume}{138}
+      \field{year}{2008}
+      \field{pages}{367\bibrangedash 392}
+      \range{pages}{26}
+    \endentry
+    \entry{smith2012attributability}{article}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=da7bab9a94b9902cf6420f84a4e09462}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Angela\bibnamedelima M},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {University of Chicago Press Chicago, IL}%
+      }
+      \strng{namehash}{da7bab9a94b9902cf6420f84a4e09462}
+      \strng{fullhash}{da7bab9a94b9902cf6420f84a4e09462}
+      \strng{bibnamehash}{da7bab9a94b9902cf6420f84a4e09462}
+      \strng{authorbibnamehash}{da7bab9a94b9902cf6420f84a4e09462}
+      \strng{authornamehash}{da7bab9a94b9902cf6420f84a4e09462}
+      \strng{authorfullhash}{da7bab9a94b9902cf6420f84a4e09462}
+      \field{extraname}{4}
+      \field{labelalpha}{Smi12}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ethics}
+      \field{number}{3}
+      \field{title}{Attributability, answerability, and accountability: In defense of a unified account}
+      \field{volume}{122}
+      \field{year}{2012}
+      \field{pages}{575\bibrangedash 589}
+      \range{pages}{15}
+    \endentry
+    \entry{smith2015responsibility}{article}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=da7bab9a94b9902cf6420f84a4e09462}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Angela\bibnamedelima M},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{da7bab9a94b9902cf6420f84a4e09462}
+      \strng{fullhash}{da7bab9a94b9902cf6420f84a4e09462}
+      \strng{bibnamehash}{da7bab9a94b9902cf6420f84a4e09462}
+      \strng{authorbibnamehash}{da7bab9a94b9902cf6420f84a4e09462}
+      \strng{authornamehash}{da7bab9a94b9902cf6420f84a4e09462}
+      \strng{authorfullhash}{da7bab9a94b9902cf6420f84a4e09462}
+      \field{extraname}{5}
+      \field{labelalpha}{Smi15}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Inquiry}
+      \field{number}{2}
+      \field{title}{Responsibility as answerability}
+      \field{volume}{58}
+      \field{year}{2015}
+      \field{pages}{99\bibrangedash 126}
+      \range{pages}{28}
+    \endentry
+    \entry{Strawson1962}{incollection}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=76aae1d0363ce39f5b01875208924c53}{%
+           family={Strawson},
+           familyi={S\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{76aae1d0363ce39f5b01875208924c53}
+      \strng{fullhash}{76aae1d0363ce39f5b01875208924c53}
+      \strng{bibnamehash}{76aae1d0363ce39f5b01875208924c53}
+      \strng{authorbibnamehash}{76aae1d0363ce39f5b01875208924c53}
+      \strng{authornamehash}{76aae1d0363ce39f5b01875208924c53}
+      \strng{authorfullhash}{76aae1d0363ce39f5b01875208924c53}
+      \field{labelalpha}{Str62}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the British Academy, Volume 48}
+      \field{title}{Freedom and Resentment}
+      \field{year}{1962}
+      \field{pages}{1\bibrangedash 25}
+      \range{pages}{25}
+    \endentry
+    \entry{sullins2006robot}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b6a9760034c3877e68e1e00e65b0096d}{%
+           family={Sullins},
+           familyi={S\bibinitperiod},
+           given={John\bibnamedelima P},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery New York, NY}%
+      }
+      \strng{namehash}{b6a9760034c3877e68e1e00e65b0096d}
+      \strng{fullhash}{b6a9760034c3877e68e1e00e65b0096d}
+      \strng{bibnamehash}{b6a9760034c3877e68e1e00e65b0096d}
+      \strng{authorbibnamehash}{b6a9760034c3877e68e1e00e65b0096d}
+      \strng{authornamehash}{b6a9760034c3877e68e1e00e65b0096d}
+      \strng{authorfullhash}{b6a9760034c3877e68e1e00e65b0096d}
+      \field{labelalpha}{Sul06}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Machine ethics}
+      \field{number}{2006}
+      \field{title}{When is a robot a moral agent}
+      \field{volume}{6}
+      \field{year}{2006}
+      \field{pages}{23\bibrangedash 30}
+      \range{pages}{8}
+    \endentry
+    \entry{SmithVickers2021}{article}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=46cf81997157d603c04ef1961fb67d6a}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Nicholas},
+           giveni={N\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=a5e9ec2e347ecd99362bcef111bc824a}{%
+           family={Vickers},
+           familyi={V\bibinitperiod},
+           given={Darby},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media {LLC}}%
+      }
+      \strng{namehash}{367ebf6e97c5ed9f1c307fd9b4ba642a}
+      \strng{fullhash}{367ebf6e97c5ed9f1c307fd9b4ba642a}
+      \strng{bibnamehash}{367ebf6e97c5ed9f1c307fd9b4ba642a}
+      \strng{authorbibnamehash}{367ebf6e97c5ed9f1c307fd9b4ba642a}
+      \strng{authornamehash}{367ebf6e97c5ed9f1c307fd9b4ba642a}
+      \strng{authorfullhash}{367ebf6e97c5ed9f1c307fd9b4ba642a}
+      \field{labelalpha}{SV21}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ethics and Information Technology}
+      \field{month}{4}
+      \field{title}{Statistically responsible artificial intelligences}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.1007/s10676-021-09591-1
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007%2Fs10676-021-09591-1
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007%2Fs10676-021-09591-1
+      \endverb
+    \endentry
+    \entry{Tigard_2020}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=665f0276f6632e991c0768fa02342108}{%
+           family={Tigard},
+           familyi={T\bibinitperiod},
+           given={Daniel\bibnamedelima W.},
+           giveni={D\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media {LLC}}%
+      }
+      \strng{namehash}{665f0276f6632e991c0768fa02342108}
+      \strng{fullhash}{665f0276f6632e991c0768fa02342108}
+      \strng{bibnamehash}{665f0276f6632e991c0768fa02342108}
+      \strng{authorbibnamehash}{665f0276f6632e991c0768fa02342108}
+      \strng{authornamehash}{665f0276f6632e991c0768fa02342108}
+      \strng{authorfullhash}{665f0276f6632e991c0768fa02342108}
+      \field{labelalpha}{Tig20}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Philosophy {\&} Technology}
+      \field{month}{7}
+      \field{title}{There Is No Techno-Responsibility Gap}
+      \field{year}{2020}
+      \verb{doi}
+      \verb 10.1007/s13347-020-00414-7
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007%2Fs13347-020-00414-7
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007%2Fs13347-020-00414-7
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -1,0 +1,41 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Introduction}{2}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1}The Dirty Problem}{3}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}The Basics}{5}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1}Two Perspectives}{5}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2}What is Moral Responsibility}{5}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.2.1}Strawson}{6}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.2.2}Smith}{9}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3}What are the machines we will be talking about?}{12}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}Can we Bridge the Gap?}{12}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1}Can machines be responsible?}{13}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.1.1}Machines cannot be responsible}{13}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.1.2}Machines can be responsible}{14}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Real World Problems}{14}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1}Autonomous Weapon Systems}{14}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2}Healthcare}{14}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3}COMPAS}{14}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5}Discussion}{14}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6}Conclusion}{15}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7}Disclaimers}{15}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8}Acknowledgements}{15}{}%
