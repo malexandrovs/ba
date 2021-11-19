@@ -315,6 +315,39 @@
       \field{pages}{99\bibrangedash 126}
       \range{pages}{28}
     \endentry
+    \entry{sparrow2007killer}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1110f107d52abf787c4cb602d3bee387}{%
+           family={Sparrow},
+           familyi={S\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{1110f107d52abf787c4cb602d3bee387}
+      \strng{fullhash}{1110f107d52abf787c4cb602d3bee387}
+      \strng{bibnamehash}{1110f107d52abf787c4cb602d3bee387}
+      \strng{authorbibnamehash}{1110f107d52abf787c4cb602d3bee387}
+      \strng{authornamehash}{1110f107d52abf787c4cb602d3bee387}
+      \strng{authorfullhash}{1110f107d52abf787c4cb602d3bee387}
+      \field{labelalpha}{Spa07}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of applied philosophy}
+      \field{number}{1}
+      \field{title}{Killer robots}
+      \field{volume}{24}
+      \field{year}{2007}
+      \field{pages}{62\bibrangedash 77}
+      \range{pages}{16}
+    \endentry
     \entry{Strawson1962}{incollection}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=76aae1d0363ce39f5b01875208924c53}{%
@@ -463,6 +496,7 @@
       \endverb
     \endentry
   \enddatalist
+  \missing{sullins2006robots}
 \endrefsection
 \endinput
 
