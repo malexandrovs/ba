@@ -18,7 +18,39 @@
 
 
 \refsection{0}
-  \datalist[entry]{anyt/global//global/global}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{coeckelbergh2014moral}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cfd4ef5d8e7e582d15ecead767493fc1}{%
+           family={Coeckelbergh},
+           familyi={C\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{cfd4ef5d8e7e582d15ecead767493fc1}
+      \strng{fullhash}{cfd4ef5d8e7e582d15ecead767493fc1}
+      \strng{bibnamehash}{cfd4ef5d8e7e582d15ecead767493fc1}
+      \strng{authorbibnamehash}{cfd4ef5d8e7e582d15ecead767493fc1}
+      \strng{authornamehash}{cfd4ef5d8e7e582d15ecead767493fc1}
+      \strng{authorfullhash}{cfd4ef5d8e7e582d15ecead767493fc1}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Philosophy \& Technology}
+      \field{number}{1}
+      \field{title}{The moral standing of machines: Towards a relational and non-Cartesian moral hermeneutics}
+      \field{volume}{27}
+      \field{year}{2014}
+      \field{pages}{61\bibrangedash 77}
+      \range{pages}{17}
+    \endentry
     \entry{heidegger1977technology}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=79b1e6f4199aeb3f853ca7cba607bfdc}{%
@@ -37,7 +69,6 @@
       \strng{authorbibnamehash}{79b1e6f4199aeb3f853ca7cba607bfdc}
       \strng{authornamehash}{79b1e6f4199aeb3f853ca7cba607bfdc}
       \strng{authorfullhash}{79b1e6f4199aeb3f853ca7cba607bfdc}
-      \field{labelalpha}{Hei77}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
@@ -67,7 +98,6 @@
       \strng{authorbibnamehash}{07381d1f823d79ccfad2d3769bfa961c}
       \strng{authornamehash}{07381d1f823d79ccfad2d3769bfa961c}
       \strng{authorfullhash}{07381d1f823d79ccfad2d3769bfa961c}
-      \field{labelalpha}{Mat04}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -91,6 +121,33 @@
       \verb https://doi.org/10.1007%2Fs10676-004-3422-1
       \endverb
     \endentry
+    \entry{misselhorn2018grundfragen}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2e0a6027935c359e2527e3cb0f646f50}{%
+           family={Misselhorn},
+           familyi={M\bibinitperiod},
+           given={Catrin},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Reclam Verlag}%
+      }
+      \strng{namehash}{2e0a6027935c359e2527e3cb0f646f50}
+      \strng{fullhash}{2e0a6027935c359e2527e3cb0f646f50}
+      \strng{bibnamehash}{2e0a6027935c359e2527e3cb0f646f50}
+      \strng{authorbibnamehash}{2e0a6027935c359e2527e3cb0f646f50}
+      \strng{authornamehash}{2e0a6027935c359e2527e3cb0f646f50}
+      \strng{authorfullhash}{2e0a6027935c359e2527e3cb0f646f50}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Grundfragen der Maschinenethik: Reclams Universal-Bibliothek}
+      \field{year}{2018}
+    \endentry
     \entry{Shoemaker_2011}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=707fb9cf938d83b6678695cba0c85e9d}{%
@@ -109,7 +166,6 @@
       \strng{authorbibnamehash}{707fb9cf938d83b6678695cba0c85e9d}
       \strng{authornamehash}{707fb9cf938d83b6678695cba0c85e9d}
       \strng{authorfullhash}{707fb9cf938d83b6678695cba0c85e9d}
-      \field{labelalpha}{Sho11}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
@@ -153,7 +209,6 @@
       \strng{authornamehash}{da7bab9a94b9902cf6420f84a4e09462}
       \strng{authorfullhash}{da7bab9a94b9902cf6420f84a4e09462}
       \field{extraname}{1}
-      \field{labelalpha}{Smi05}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
@@ -188,7 +243,6 @@
       \strng{authornamehash}{da7bab9a94b9902cf6420f84a4e09462}
       \strng{authorfullhash}{da7bab9a94b9902cf6420f84a4e09462}
       \field{extraname}{2}
-      \field{labelalpha}{Smi07}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
@@ -232,7 +286,6 @@
       \strng{authornamehash}{da7bab9a94b9902cf6420f84a4e09462}
       \strng{authorfullhash}{da7bab9a94b9902cf6420f84a4e09462}
       \field{extraname}{3}
-      \field{labelalpha}{Smi08}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
@@ -266,7 +319,6 @@
       \strng{authornamehash}{da7bab9a94b9902cf6420f84a4e09462}
       \strng{authorfullhash}{da7bab9a94b9902cf6420f84a4e09462}
       \field{extraname}{4}
-      \field{labelalpha}{Smi12}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
@@ -300,7 +352,6 @@
       \strng{authornamehash}{da7bab9a94b9902cf6420f84a4e09462}
       \strng{authorfullhash}{da7bab9a94b9902cf6420f84a4e09462}
       \field{extraname}{5}
-      \field{labelalpha}{Smi15}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
@@ -314,6 +365,51 @@
       \field{year}{2015}
       \field{pages}{99\bibrangedash 126}
       \range{pages}{28}
+    \endentry
+    \entry{SmithVickers2021}{article}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=46cf81997157d603c04ef1961fb67d6a}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Nicholas},
+           giveni={N\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=a5e9ec2e347ecd99362bcef111bc824a}{%
+           family={Vickers},
+           familyi={V\bibinitperiod},
+           given={Darby},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media {LLC}}%
+      }
+      \strng{namehash}{367ebf6e97c5ed9f1c307fd9b4ba642a}
+      \strng{fullhash}{367ebf6e97c5ed9f1c307fd9b4ba642a}
+      \strng{bibnamehash}{367ebf6e97c5ed9f1c307fd9b4ba642a}
+      \strng{authorbibnamehash}{367ebf6e97c5ed9f1c307fd9b4ba642a}
+      \strng{authornamehash}{367ebf6e97c5ed9f1c307fd9b4ba642a}
+      \strng{authorfullhash}{367ebf6e97c5ed9f1c307fd9b4ba642a}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ethics and Information Technology}
+      \field{month}{4}
+      \field{title}{Statistically responsible artificial intelligences}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.1007/s10676-021-09591-1
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007%2Fs10676-021-09591-1
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007%2Fs10676-021-09591-1
+      \endverb
     \endentry
     \entry{sparrow2007killer}{article}{}
       \name{author}{1}{}{%
@@ -333,7 +429,6 @@
       \strng{authorbibnamehash}{1110f107d52abf787c4cb602d3bee387}
       \strng{authornamehash}{1110f107d52abf787c4cb602d3bee387}
       \strng{authorfullhash}{1110f107d52abf787c4cb602d3bee387}
-      \field{labelalpha}{Spa07}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
@@ -363,7 +458,6 @@
       \strng{authorbibnamehash}{76aae1d0363ce39f5b01875208924c53}
       \strng{authornamehash}{76aae1d0363ce39f5b01875208924c53}
       \strng{authorfullhash}{76aae1d0363ce39f5b01875208924c53}
-      \field{labelalpha}{Str62}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
@@ -394,7 +488,6 @@
       \strng{authorbibnamehash}{b6a9760034c3877e68e1e00e65b0096d}
       \strng{authornamehash}{b6a9760034c3877e68e1e00e65b0096d}
       \strng{authorfullhash}{b6a9760034c3877e68e1e00e65b0096d}
-      \field{labelalpha}{Sul06}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
@@ -408,52 +501,6 @@
       \field{year}{2006}
       \field{pages}{23\bibrangedash 30}
       \range{pages}{8}
-    \endentry
-    \entry{SmithVickers2021}{article}{}
-      \name{author}{2}{}{%
-        {{un=1,uniquepart=given,hash=46cf81997157d603c04ef1961fb67d6a}{%
-           family={Smith},
-           familyi={S\bibinitperiod},
-           given={Nicholas},
-           giveni={N\bibinitperiod},
-           givenun=1}}%
-        {{un=0,uniquepart=base,hash=a5e9ec2e347ecd99362bcef111bc824a}{%
-           family={Vickers},
-           familyi={V\bibinitperiod},
-           given={Darby},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{2}{%
-        {Springer Science}%
-        {Business Media {LLC}}%
-      }
-      \strng{namehash}{367ebf6e97c5ed9f1c307fd9b4ba642a}
-      \strng{fullhash}{367ebf6e97c5ed9f1c307fd9b4ba642a}
-      \strng{bibnamehash}{367ebf6e97c5ed9f1c307fd9b4ba642a}
-      \strng{authorbibnamehash}{367ebf6e97c5ed9f1c307fd9b4ba642a}
-      \strng{authornamehash}{367ebf6e97c5ed9f1c307fd9b4ba642a}
-      \strng{authorfullhash}{367ebf6e97c5ed9f1c307fd9b4ba642a}
-      \field{labelalpha}{SV21}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Ethics and Information Technology}
-      \field{month}{4}
-      \field{title}{Statistically responsible artificial intelligences}
-      \field{year}{2021}
-      \verb{doi}
-      \verb 10.1007/s10676-021-09591-1
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1007%2Fs10676-021-09591-1
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1007%2Fs10676-021-09591-1
-      \endverb
     \endentry
     \entry{Tigard_2020}{article}{}
       \name{author}{1}{}{%
@@ -474,7 +521,6 @@
       \strng{authorbibnamehash}{665f0276f6632e991c0768fa02342108}
       \strng{authornamehash}{665f0276f6632e991c0768fa02342108}
       \strng{authorfullhash}{665f0276f6632e991c0768fa02342108}
-      \field{labelalpha}{Tig20}
       \field{sortinit}{T}
       \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
       \field{extradatescope}{labelyear}
@@ -496,7 +542,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{sullins2006robots}
 \endrefsection
 \endinput
 

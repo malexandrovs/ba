@@ -8,7 +8,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1}Two Perspectives}{6}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2}What is Moral Responsibility}{6}{}%
+\contentsline {subsection}{\numberline {2.2}What is Moral Responsibility}{7}{}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.2.1}Strawson}{7}{}%
 \defcounter {refsection}{0}\relax 
@@ -16,28 +16,30 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3}What are the machines we will be talking about?}{14}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Can we Bridge the Gap?}{14}{}%
+\contentsline {section}{\numberline {3}Can we Bridge the Gap?}{15}{}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1}Why humans cannot be responsible}{16}{}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2}Can machines be responsible?}{17}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.1}Machines cannot be responsible}{18}{}%
+\contentsline {subsubsection}{\numberline {3.2.1}Machines cannot be responsible}{19}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.2}Machines can be responsible}{22}{}%
+\contentsline {subsubsection}{\numberline {3.2.2}Machines can be responsible}{25}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Real World Problems}{23}{}%
+\contentsline {section}{\numberline {4}Real World Problems}{25}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1}Autonomous Weapon Systems}{23}{}%
+\contentsline {subsection}{\numberline {4.1}Autonomous Weapon Systems}{25}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2}Healthcare}{23}{}%
+\contentsline {subsection}{\numberline {4.2}Healthcare}{25}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3}COMPAS}{23}{}%
+\contentsline {subsection}{\numberline {4.3}COMPAS}{25}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Discussion}{23}{}%
+\contentsline {section}{\numberline {5}Discussion}{25}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Conclusion}{23}{}%
+\contentsline {section}{\numberline {6}Conclusion}{26}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}Disclaimers}{23}{}%
+\contentsline {section}{\numberline {7}Meditation}{26}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8}Acknowledgements}{24}{}%
+\contentsline {section}{\numberline {8}Disclaimers}{26}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9}Acknowledgements}{26}{}%

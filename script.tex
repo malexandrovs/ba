@@ -3,7 +3,7 @@
 \usepackage{dirtytalk}
 \usepackage{color}
 \usepackage[acronym]{glossaries}
-\usepackage[backend=biber,style=alphabetic,citestyle=authoryear]{biblatex}
+\usepackage[backend=biber,style=authoryear,citestyle=authoryear]{biblatex}
 \addbibresource{bib.bib}
 \title{Responsibility Gap}
 \author{Mischa}
@@ -20,7 +20,7 @@
 
 
 %Numbered environment
-\newcounter{example}[section]
+\newcounter{example}
 \newenvironment{example}[1][]{\refstepcounter{example}\par\medskip
    \noindent \textbf{Example~\theexample. #1} \rmfamily}{\medskip}
 
@@ -184,9 +184,12 @@ Enter Machine Learning:
 We are now in a time where computer scientists and engineers work on increasing
 the autonomy of their programs and machines by using techniques that can be
 bundeled by the term \textit{machine learning} (\acrshort{ml}). `Autonomy' in this sense
-means that we allow the technology to make it's own decisions based on it's
+means that we allow the technology to make its own decisions based on its
 prior experience without the programmer or user knowing what the decision is
-going to be. 
+going to be or understanding how it came about.
+
+I WILL ALSO DEFINE AUTONOMY LATER. MAKE SURE THE TWI DEFINITIONS FIT TOGETHER OR
+POINt OUT THE DIFFERENCES OR WHATEVER
 
 Autonomie sich ziele zu setzen oder nur autonomie den weg zum vorgeggebenen ziel
 zu finden. 
@@ -207,7 +210,7 @@ agree with the CR and
 
 %Current practices in Artificial Intelligence (\acrshort{ai}) aim at increasing
 %the autonomy of machines and their software [zitieren]. `Autonomy' in this sense
-%means that we allow the technology to make it's own decisions based on it's
+%means that we allow the technology to make its own decisions based on its
 %prior experience without the programmer or user knowing what the decision is
 %going to be. In other words, they reduce the amount of control the programmer or
 %user has over the machines. This is primarily the case for technology that uses
@@ -238,6 +241,14 @@ dealing with the effects machines have on our world must necessarily change,
 but rather that the contemporary and foreseeable developments in AI and ML
 challenge our current practices and motivate their reevaluation.
 
+WHAT THIS WORK IS NOT ABOUT: HOW CAN WE MAKE MACHINES THAT MAKE THE 'RIGHT'
+DECISIONS? HOW CAN WE MAKE MACHINES THAT MAKE ETHICAL CONSIDERATIONS ETC. THOUGH
+THERE IS A LOT OF OVERLAP THERE
+
+PUT SPARROWS CONCEPTUAL SPACE HERE. PERHAPS WITH A NICE GRAPHIC. Compare perhaps
+to Allan and Wallach diagramm of moral agency?
+
+
 On the following pages I will first give descriptions of various accounts for
 moral responsiblity and will then proceed to describing and debating the
 different approaches philosophers have proposed for dealing with the assumed
@@ -260,7 +271,7 @@ responisbility gap.
 %
 %Technology that is being developed today often has the aim to become more and
 %more autonomous. Autonomous in this sense means that we allow the technology to
-%make it's own decisions based on it's prior experience without the programmer or
+%make its own decisions based on its prior experience without the programmer or
 %user knowing what the decision is going to be. This is primarily the case for
 %technology that uses machine learning to acquire a certain behaviour.
 %As Matthias (\cite{Matthias_2004}) points out, the growing autonomy challenges our
@@ -271,6 +282,10 @@ responisbility gap.
 %can sensibly be said to be responsible for the actions of that machine.
 \newpage
 \section{The Basics}
+
+TALK ABOUT THE SPLIT IN THE NOTIONS OF MACHINES AND RESPONSIBILITY BETWEEN
+AUTHORS.
+
 Before jumping into any analysis of the responsibility gap as described above,
 it makes sense to first explore what I mean, when I speak of the two things that
 give this work its title. Moral responsibility and autonomous systems.
@@ -286,7 +301,7 @@ The process view and the property view.
 I would like to introduce an idea by Daniel Tigard, that will serve as very
 helpful tool to classify different approaches discribed in this piece. Though
 Tigard relates that idea to specifically moral responsibility, I will try to
-broaden it's application. The pattern that is unveiled by that idea will follow
+broaden its application. The pattern that is unveiled by that idea will follow
 us throughout the following pages in different forms and variations, but it is
 still unmistakable. When Tigard speaks of models of moral responsibility he
 speaks that we may have a \textit{process view} or a \textit{property view} on
@@ -328,12 +343,11 @@ shall continue.
  While we generally have an intuitive understanding of what we mean
 by (moral) responsibility, it is important for the following discussion to have
 a more rigorous account of the term. The necessity of clarifiying the term
-becomes clear, when we expose it's ambiguity in our everyday language.
+becomes clear, when we expose its ambiguity in our everyday language.
 Sometimes we use moral responsibilty to say that someone has some sort of moral
 obligation to do something. Sometimes we use the term to say that we blame
-someone. Sometimes, to denote that a certain action, attitude or event can be
-attributed to someone in a sense that allows us to appraise them on it's basis.
-And on and on...
+someone. Sometimes, to denote that a person is accountable for a certain action,
+attitude or event in a sense that allows us to appraise them on its basis.  And on and on...
 %For one,
 %holding someone responsible, often implies that they did something morally
 %reprehensible. When we read or hear phrases like \say{I hold you responsible for
@@ -362,7 +376,7 @@ appraisal for it}. In other words, when I am responsible for something, it means
 that I am an appropriate target of blame, praise or other moral responses
 because of it. PERHAPS THIS IS A GOOD MOMENT TO TALK ABOUT THE IMBALANCE IN R.
 As we will see later, the same of very similar definitions of
-responsibility can be found in other philosophical works on responsibility. We
+responsibility can be found in other philosophical works on the topic. We
 will, thus, continue working with it.
 
 %This and similar definitions of responsibility can be found
@@ -397,8 +411,8 @@ all the situation. Where does control end and so on.
 
 \subsubsection{Strawson}
 
-There is an ongoing discussion in philosophy about the existance of determinism
-and it's impact on free will, and some philosophers deem free will to be closely related to
+There is an ongoing discussion in philosophy about the existence of determinism
+and its impact on free will, and some philosophers deem free will to be closely related to
 moral responsibility [zitieren]. To discuss this topic is notbla bla nor is it
 my intention to take a position on this issue. Instead I will try to elegantly
 sidestep the matter by taking a Strawsonian approach on moral responsibility.
@@ -507,7 +521,7 @@ of these reactive attitudes. Morality comes into play, when we acknowlidge that
 we expect certain behaviour not only towars us, \say{[...] but towards all those on
 whose behalf moral indignation may be felt [...]} (\cite[p.16]{Strawson1962}).
 
-In light of this account, moral responsibility is not a metaphysical entity.
+In light of this account, moral responsibility does not seem to be a metaphysical entity.
 From a Strawsonian perspective, to be morally responsible can be interpreted as
 being an appropriate object of vicarious reactive attitudes
 (\cite[p.3]{SmithVickers2021}) (\cite[p.175]{Matthias_2004}). Tigard takes moral
@@ -546,6 +560,7 @@ exhibited at all. Strawson distinguishes two general groups of such cases:
 		and is then rude to her husband. The people who suffer the
 		injury usually tend to modify their reactive attitudes to fit
 		the circumstances.
+		TIGARD HAS A SIMILAR EXAMPLE
 
 
 
@@ -605,7 +620,8 @@ PSYCHOLOGICAL SETTING RATHER THAN A PHILOSOPHICAL ONE.
  about the cases where our interpretation is wrong? We might think their action
  is an expression of ill will towards us, but by looking beneath their sculp, we
  might see that it is actually not the case and we had misinterpreted their
- attitude. Intuitively, it would not be fair to blame someone, if their \textit{real}
+ attitude. Intuitively, it would not be fair to blame someone, if their
+ \textit{actual}
  attitude would not correspond with our \textit{perception} of their attitude.
  Or their action was subject to circumstances unbeknownst to us. We hold them
  responsible and blame them for the action. But upon learning more about the
@@ -627,7 +643,7 @@ PSYCHOLOGICAL SETTING RATHER THAN A PHILOSOPHICAL ONE.
 %	 background! Oh no, I hope nobody will notice it! *MISCHA USES HIS
 % SPECIAL ATTACK: \textbf{GLOSSING OVER STUFF THAT MIGHT BE VERY IMPORTANT}*}\\
 %
-% \textit{Can you feel it's presence? It is still at distance, yet comes closer the more we
+% \textit{Can you feel its presence? It is still at distance, yet comes closer the more we
 % seek for truth. It regards us patiently as it is the end boss and it waits for
 % a fight that may never halt. And the fight might never halt; not because we are
 % equal adversaries, but because we are too weak to know when it is over.}
@@ -944,60 +960,142 @@ PSYCHOLOGICAL SETTING RATHER THAN A PHILOSOPHICAL ONE.
  BE FILLED
 \subsection{What are the machines we will be talking about?}
 
-In my writing I will use such phrasings as artificial intelligence (AI),
-autonomous system, machine and robot almost interchangeably. It is thus useful
-to define what I mean when I use these terms and, looking at the huge actual and
-possible variety that these technologies occur in, to find a way to classify
-them. So this will be our working definition that unifies all of them:
+Now that we have understood what moral responsibility can mean, we shall look at
+the other component of the topic. The machines, the autonomous systems, the
+robots, the AIs. I use these terms almost interchangeably. What is important
+here is that these technologies have the capacity for autonomous action.
+Matthias says that the question about responsibility gap arises because humans
+have less and less control over intelligent machines (\cite[p.
+175]{Matthias_2004}). It seems reasonable to say that the loss of control
+results from an increase in the machines autonomy.\\ 
+Robert Sparrow explicitly says that the problem with the ascription of moral
+responsibility exists for truly autonomous machines (\cite[p.
+64-65]{sparrow2007killer}). For Sparrow, being autonomous means to have internal
+states (like beliefs or desires) and to be influenced by them.  Moreover, an
+autonomous agent is able to \say{form and revise these beliefs themselves}
+(\cite[p. 65]{sparrow2007killer}).\\
+Thomas Hellström implies that with higher intelligence the robots will
+become more autonomous\footnote{Hellström uses a little bit of a
+		different terminology: For him, autonomy is an absolute
+		property. He introduces the concept of autonomous power, which
+		describes the range in which an agent is autonomous. Though I
+		find this a fair account of autonomy, we shall not make that
+		distinction. For the sake of simplicity, we shall see autonomy
+as a gradual property.} and that this will lead to responsibility issues.
 
-\begin{center}
-	\textit{A human artifact that is capable of making autonomous decisions
-	and act upon them.}
+So what is this mysterious property called \textit{autonomy} that seems to be so
+important? Well, unfortunately I don't really have the time to extensively dive
+into this broad topic. Instead we shall remember the working definition from
+above, as it seems to caputure all the features of autonomy that are relevant
+for the topic.
 
-\end{center}
+Flashback with harp music (dilulululu dilululul):\\
+\say{\textit{`Autonomy' in this sense means that we allow the technology to make its own
+decisions based on its prior experience without the programmer or user knowing
+what the decision is going to be or understanding how it came about.}} (Taken
+from page 4 of this very document).
 
-I need somebody to make a connection between moral responsibility and (moral)
-agency PLEASE! AHHHHH
+What is important is, that the autonomous decisions are in some sense
+intelligent but also somewhat unpredictable and untransparent.\\
 
-While I will not go into any specific implementational or engineering details
-about the connected technologies, we shall try to understand what that means in
-the context of the topic on a conceptual philosophical level. The notion of
-autonomy is emphasised and it implies a certain kind of agency. Catrin
-Misselhorn gives a gradual and multidimensional definition of agency. Introduce
-autonomous power by Hellström. And speak of autonomy in the context of Allen and
-Wallach. Give examples of systems whose actions have moral implcications.
+The question of the responsibility gap is asked because of these properties but,
+as we will see later, the answer may depend on other properties as well.
 
+We will encounter technologies that range from simple artificial
+neural networks to war robots that can decide who to kill to truly conscious AIs\footnote{I will not discuss the nature of
+	conscious AI and other questions that dive into the conceptual and
+technological sensibleness and/or possibility of it.}. It seems that the domain,
+in which these systems reside, is multi-dimensional and gradual (\cite[p.
+75]{misselhorn2018grundfragen}). During the whole exploration of the
+responsibility gap, this is something that we should keep in mind.\\
 
-Allen and Wallach introduce a gradual understanding of autonomy. There are
-things with low autonomy and things with high autonomy, and there is a full
-spectrum of autonomy in between.
+%also argues that increased autonomy of intelligent systems will
+%lead to responsibility issues (\cite[p. 99]{hellstrom2013moral}).
+%
+% 
+%Still, this description is not
+%enough. 
+%
+%
+%What I mean are
+%artificial autonomous intelligent agents.
+%
+%One could write a book about what this
+%term means and even more books about  what its constituents mean. I cannot do
+%
+%And as if that is not
+%enough, we will see that the types of technologies that the different authors
+%use vary strongly in their sophistication. Instead of ignoring these differences
+%or trying to catch everything in one basket, it makes sense to establish a
+%classification system to make the differences visible.
+%
+%There are two terms that occur in the descriptions of the relevant technologies
+%over and over again: \textit{Autonomy} and \textit{Agency}.
+%
+%James H. Moor
+%
+%In my writing I will use such phrasings as artificial intelligence (AI),
+%autonomous system, machine and robot almost interchangeably. It is thus useful
+%to define what I mean when I use these terms and, looking at the huge actual and
+%possible variety that these technologies occur in, to find a way to classify
+%them. So this will be our working definition that unifies all of them:
+%
+%\begin{center}
+%	\textit{A human artifact that is capable of making autonomous decisions
+%	and act upon them.}
+%
+%\end{center}
+%
+%I need somebody to make a connection between moral responsibility and (moral)
+%agency PLEASE! AHHHHH
 
+One last remark, before we continue:\\
 
-Catrin Misselhorn Agency:
+I will not go into any specific implementational or engineering details about
+the relevant technologies. This analysis will take the technologies and their
+properties on a conceptual and philosophical level. IS THAT TRUE? CHECK AT THE
+END. MAYBE ADD A 'MOSTLY'.
+%While I will not go into any specific implementational or engineering details
+%about the connected technologies, we shall try to understand what that means in
+%the context of the topic on a conceptual philosophical level. The notion of
+%autonomy is emphasised and it implies a certain kind of agency. Catrin
+%Misselhorn gives a gradual and multidimensional definition of agency. Introduce
+%autonomous power by Hellström. And speak of autonomy in the context of Allen and
+%Wallach. Give examples of systems whose actions have moral implcications.
+%
+%
+%Allen and Wallach introduce a gradual understanding of autonomy. There are
+%things with low autonomy and things with high autonomy, and there is a full
+%spectrum of autonomy in between.
+%
+%
+%Catrin Misselhorn Agency:
+%
+%When can a certain behaviour be considered an action? What is an agent? There
+%are natural and artificial entities that are considered agents. They cover a
+%broad spectrum of behaviour. So the notion of agency must be gradual and
+%multidimensional. Agency is an interplay of many factors. The two most important
+%factors (according to Misselhorn) are rationality and autonomy (the ability to
+%initiate one's own behaviour).
+%
+%
+%AI, Robots, Autonomous systems and machines will be used interchangably.
+%Introduce the scale of allan and wallach morality-autonomy. Introduce strong ai,
+%weak ai. AGI
 
-When can a certain behaviour be considered an action? What is an agent? There
-are natural and artificial entities that are considered agents. They cover a
-broad spectrum of behaviour. So the notion of agency must be gradual and
-multidimensional. Agency is an interplay of many factors. The two most important
-factors (according to Misselhorn) are rationality and autonomy (the ability to
-initiate one's own behaviour).
-
-
-AI, Robots, Autonomous systems and machines will be used interchangably.
-Introduce the scale of allan and wallach morality-autonomy. Introduce strong ai,
-weak ai. AGI
-
+I DON'T REALLY LIKE THIS SECTION... BUT MAYBE IT IS OK. IT FEELS NOT EXHAUSTIVE
+AND VERY FUZZY AND SHORT... I HATE IT. PERHAPS I WILL FIND STRONGER CONTENT TO
+PUT INTO IT...
 
 \section{Can we Bridge the Gap?}
 
 The story sofar:\\
-We have defined moral responsibility to be an openess for moral appraisal.
+We have defined moral responsibility to be an openness for moral appraisal.
 Matthias says that to be morally responsible for something, one must be in
 control of it. According to Strawson, the way we blame and praise other people
-is based on a social negotiation, based on actions, intentions, attitudes and
+is the result a social negotiation, which is based on actions, intentions, attitudes and
 reactions. Smith goes a bit further and tries to give a more rigorous account of
-the conditions to moral responsibility. She says that people are responsible for
-all and only those things that are rationally caused by a preceding evaluative
+the conditions to moral responsibility. She says that people are responsible for all and only those things that are rationally caused by a preceding evaluative
 judgement. Let us now turn back to the responsibility gap, as it is described
 above. Matthias claims that there is a responsibility gap, because it is not
 clear how to ascribe responsibility for actions performed by intelligent
@@ -1020,7 +1118,8 @@ In \say{Killer Robots}, Sparrow assesses the ethics of
 autonomous weapon systems and what happens when they commit something that would
 be considered a war crime. Who would be responsible for it? According to Sparrow
 there are three sensible cadidates to ascribe responsibility to: The programmer,
-the commanding officer and the machine itself. This seems to me like a fair
+the commanding officer and the machine itself (\cite[p.
+69-71]{sparrow2007killer}). This seems to me like a fair
 account even beyond autonomous robot warfare. It seems that the three targets
 (programmer, user, machine) are intuitively where to look for responsibility and
 we will mainly focus on them.
@@ -1038,7 +1137,7 @@ back and lay out the arguments of those who say that the problem exists in the
 first place; those who say that we will not be able to deal with the problem of
 responsibility ascription in the same way we are used to by subscribing to the
 above mentioned instrumental theory; those who say that the involved humabns are
-not responsible and nor is the machine. 
+not responsible nor is the machine. 
 
 MY ARGUMENTATION MUST BE CLEAR HERE. DO PEOPLE UNDERSTAND WHAT I AM GOING TO?
 WHAT AM I GOING TO IN THE ABOVE PARAGRAPH: THE QUESTION ABOUT THE QUESTION
@@ -1052,7 +1151,10 @@ that\\
 
 \say{[f]or a person to be \textit{rightly} held responsible, that is, in
 accordance with our sense of justice, she must have \textit{control} over her
-behaviour and the resulting consequences ``in a suitable sense''}.
+behaviour and the resulting consequences ``in a suitable sense'' (Fischer and
+Ravizza 1998:13)}\footnote{According to Matthias this quote can be found in:\\
+J.M. Fischer and M.S.J. \textit{Ravizza Responsibility and Control. A Theory of
+Moral Responsibility}. Cambridge University Press, Cambridge, 1998.}
 
 Further, he says that machine learning technology will lead to a decrease of
 control humans will have over machines and their doings. People will not be able
@@ -1071,14 +1173,15 @@ programmer could be considered only responsible, if the mistakes the machine
 made came as a result of the programmer's negligence. However, Sparrow goes on,
 if the possibility of a mistake, say an autonomous weapon system kills the wrong
 target, a medical software misdiagnoses a patient, is clearly stated and
-disclosed as a \say{limitation of the system}, the programmer is released from
-bearing the responsibility and it would be taken over by the user, the
-commanding officer, the physician employing the technology. But they as well would
-not be appropriate targets of responsibility in Sparrow's view. He reasons that
-if the AI was truly autonomous, it would \textit{choose} it's actions on it's
-own (\cite[p. 70]{sparrow2007killer}). It seems to me that Sparrow suggests that
-an autonomous AI would exercise a will. And it would not be fair to hold the
-user responsible for something that originated from the will of such a machine.
+disclosed as a \say{limitation of the system} (\cite[p. 69]{sparrow2007killer}),
+the programmer is released from bearing the responsibility and it would be taken
+over by the user, the commanding officer, the physician employing the
+technology. But they as well would not be appropriate targets of responsibility
+in Sparrow's view. He reasons that if the AI was truly autonomous, it would
+\textit{choose} its actions on its own (\cite[p. 70]{sparrow2007killer}). It
+seems to me that Sparrow suggests that an autonomous AI would exercise a will.
+And it would not be fair to hold the user responsible for something that
+originated from the will of such a machine.
 
 'However, legal questions regarding how is responsible for the acrions of
 (ro)bot, and when it might cross the threshold to where it bears resposnibility
@@ -1101,17 +1204,26 @@ gap, is the introduction of autonomous machines as
 I shall structure my examination of the three
 
 QUESTIONS: 
-1) WHAT IS THE AUTHORS MAIN POINT?
-2) WHAT KIND OF AUTONOMOUS SYSTEM ARE THEY TALKING ABOUT?
-3) WHAT IS THEIR VIEW ON MORAL RESPONSIBILITY?
-4) WHO SUPPORTS THEIR ARGUMENT?
-5) WHO DISAGREES WITH THEIR ARGUMENT?
+1) WHAT IS THE AUTHORS MAIN POINT??\\
+2) WHAT KIND OF AUTONOMOUS SYSTEM ARE THEY TALKING ABOUT??\\
+3) WHAT IS THEIR VIEW ON MORAL RESPONSIBILITY??\\
+4) WHO SUPPORTS THEIR ARGUMENT??\\
+5) WHO DISAGREES WITH THEIR ARGUMENT??\\
 
 \subsection{Can machines be responsible?}
 
-Arguably, if machines cannot be responsible, we do not need to divert from
-instrumentalism and deal with the stuff just like we have dealt with it in the
-past.
+If the argumentation above is convincing, there is a degree of autonomy that
+machines can achieve that which would render it unfair to hold the programmers and users
+responible for it. It then makes sense to explore the third possible locus of
+responsibility, that Sparrow talks about: The machine *ominous music starts
+playing*
+
+We will see that most authors agree that a machine can only be responsible, if
+it is a full moral agent. However, they do disagree about what makes a full
+moral agent a full moral agent.
+%Arguably, if machines cannot be responsible, we do not need to divert from 
+%instrumentalism and deal with the stuff just like we have dealt with it in the
+%past.
 
 The question of can machines be responsible can be answered in four different
 ways: Yes, No, Maybe and Kinda
@@ -1137,10 +1249,11 @@ they earn wages, machines could be fined; their liberty could be restricted by
 imprisoning them; or, in the most severe case, they could be destroyed as a form
 of capital punishment. However, Sparrow assumes that punishment is only
 punishment if the target suffers as a result. And that is a very demanding
-condition. It would not be enough, says he, that the machine would suffer
+condition. It would not be enough, he says, that the machine would suffer
 `functionally'. To fulfill our moral demands, the machine's suffering ought to
 have a phenomenological quality to it. Otherwise punishing an autonomous system
-would be no different from punishing a hammer. It wouldn't \textit{really} care.
+would be no different from punishing a hammer\footnote{Coeckelberg makes a
+similar comparison with a hammer.ZITIEREN}. It wouldn't \textit{really} care.
 This means that, according to Sparrow, automonous machines could potetially be
 responsible, but only if they have the necessary phenomenology with the
 capability to suffer when punished and, consequently, to feel pleasure when
@@ -1149,12 +1262,14 @@ responsibility: To be morally responsible requires the phenomenological
 capability to suffer. When it comes to how we could establish whether the
 machine had such a capability or not, against my expectations, Sparrow says that
 all the machine had to do is to convince us that it had it and evoke appropriate
-responses within us humans through it's behaviour. This approach heavily
+responses within us humans through its behaviour. This approach heavily
 resembles a process view on phenomenological experience. In that case the
 machines would be \say{full `moral persons'} with moral rights and duties and
 appropriate subjects for moral considerations, that are hitherto reserved for
 human beings. MAYBE I SHOULD TAKE OUT THIS LAST HALF SENTENCE (NO SOURCE) (NOT
 SELF-EVIDENT)
+
+PUT HERE A PARAGRAPH ABOUT THE CONCEPTUAL SPACE THAT SPARROW TALKS ABOUT.
 
 I THINK I SHOULD PUT THE PAPER ABOUT STATISTICALLY RESPONSIBLE AI HERE; THEY
 COME TO THE SAME CONCLUSION; BUT THEIR VIEWS ON MR AND CONSCIOUSNESS ARE
@@ -1212,7 +1327,7 @@ Thus, we can write on our little list of demands that an AI should have these
 capacities.
 
 On top of that, each moral community forms moral traditions and practices that
-depend on the specific properties of it's members. Based on these properties, we
+depend on the specific properties of its members. Based on these properties, we
 judge which expecatations, demands and reactive attitudes are fair to have and
 which not.
 
@@ -1224,7 +1339,7 @@ which not.
 		control and worse memory forming capacities. All else being
 		eqaul, it seems plausible that a society of these homo
 		alcoholicus would form moral
-		practices that account for this natural state of it's members.
+		practices that account for this natural state of its members.
 		(CITE HIERONYMI p.31-32)
 \end{example}
 
@@ -1242,7 +1357,7 @@ By the author's definition, an AI that behaves like humans and has a will is
 called a strong AI and a strong AI is a responsible AI. 
 
 Strong AI stands in contrast to weak AI, which is also indistinguishable from
-humans in it's behaviour \textit{but} has no will, no inner life. For Smith and
+humans in its behaviour \textit{but} has no will, no inner life. For Smith and
 Vickers, having a will is such a fundamental statistically ordinary capacity in
 the human moral community, that nothing that does not have a will cannot be
 reasonably considered a morally responsible agent.
@@ -1280,7 +1395,7 @@ and Vickers, on the other hand, explicitly refer to the Strawsonian take on
 moral responsibility, which is a process view on the matter. However, their
 requirement for an inner life, in my opinion, does not cohere with the main point
 of Strawson's account. In having this requirement they tie moral responsibility
-to a metaphysical property that we cannot prove. That is the issue which
+to a metaphysical property that we cannot prove. That is the very issue which
 motivated Strawson in the first place. His whole idea revolves around the point
 that our moral practices work independent of any metaphysical properties like
 freedom of will and intentionality and consciousness. They instead rely on the
@@ -1386,13 +1501,66 @@ END?
 
 At this point we have considered two positions that both come to the same
 conclusion: Robots, AI, autonomous systems can be responsible, but only under
-the condition that they have some sort of phenomenology or inner life. As long
+the condition that they have some sort of phenomenology, will or inner life. As long
 as that is not given, we face a responsibility gap.
 
 Two questions come to mind. First: Can we perhaps still imagine an AI that does
 not have the demanded qualities but can still be considered responsible. Second:
 Is it true that we face a responsibility gap, if the machine cannot be
 responsible? What about the other involved players?
+IS THE SECOND QUESTION FAIR? PERHAPS IT IS TOO BIG? PERHAPs TAKE OUT THE WHOLE
+PARAGRAPH? IT IS NICE BUT ONLY IF I FIND A MORE RIGOROUS QUESTION.
+
+John P. Sullins is not as demanding when it comes to responsibility. 
+He writes that a robot can be responsible, if ascribing responsiblity to it
+is the best way to explain its behaviour. This is a process view on
+responsibility. For Sullins assuming responsibility
+comes from a `belief' of duty to do something. This belief must not originate
+from something we might call consciousness or a thought. This is probably the main
+difference between what Sullins thinks and what Sparrow and Smith/Vickers think.
+As he cynically remarks: \say{The machine may have no claim to consciousness,
+[...], or any of the other somewhat philosophically dubious entities we ascribe
+to human specialness}(\cite[p. 159]{sullins2006robot}). `Belief' is a
+functional term to describe something that motivates one to solve moral problems
+in a certain way (\cite[p. 159]{sullins2006robot}).
+Machines that are not regarded as responsible agents can still be moral entities
+if they have sufficient autonomy and intentionality. Just like responsibility,
+these attributes can be merely apparent. Such machines should be targets of
+moral considerations. Sullins suspects that their moral status will be similar
+to the status that for example dogs have and their owners are the ones who are
+responsible for them(\cite[p. 159]{sullins2006robot}).\\
+Here, Sullins does not leave room for a responsibility gap. He says that the
+user assumes the responsibility for an autonomous system until it fulfills the
+requirements to be responsible on its own. As I already said, these requirements
+are not very strict compared to Sparrow and Smith/Vickers. A machine's moral
+status is dependent on its role in society and how it is regarded by the
+society; further properties, such as consciousness, are secondary or even
+irrelevant.
+
+MAKE A NICE TRANSITION TO COECKELBERGS PAPER.
+
+According to Mark Coeckelberg, there is a mismatch between how we usually think
+about machines in general and how we \textit{sometimes} act towards them
+(\cite[p. 61]{coeckelbergh2014moral}). We usually tend to think of 
+
+they will be targets of moral
+consideration. Sullins suspects that they will then 
+WRITE ABOUT
+SMITH ANS VICKERS OBJECTION
+  
+
+
+%Sullins
+%proposes, that machines can be regarded as responsible agents, if they act as
+%such (\cite[p. 159]{sullins2006robot}). This sounds very similar to what Sparrow
+%and Smith/Vickers say. However, while the previous authors put a requirement on
+%an inner life, Sullins does not. For Sullins the machine is responsible, if its
+%behaviour can only be explained by attributing responsibility to it. No will,
+%consciousness, or phenomenology necessary.\\
+%What does it mean then for Sullins to behave \say{in such a way that we can only
+%	make sense of that behavior by assuming [the machine] has has
+%responsibility to some other moral agent(s)} (\cite[p. 159]{sullins2006robot})?
+
 
 PLACE TIGARD HERE AND SULLINS AND COECKELBERG
 
@@ -1417,18 +1585,7 @@ responsible.}
 
 Sullins approach is a bit different insofar as he says that being able to be
 responsible is a precondition for the machine to be an autonomous agent, not the
-other way around. He writes that a robot can be responsible, if ascribing responsiblity to it
-is the best way to explain it's behaviour. For Sullins assuming responsibility
-comes from a `belief' of duty to do something. This belief must not originate
-from something we might call consciousness or a thought. As he cynically
-remarks: \say{The machine may have no claim to consciousness, [...], or any of
-	the other
-	somewhat philosophically dubious entities we ascribe to human
-specialness}(\cite[p. 159]{sullins2006robots}).
-`Belief' is a functional term
-to describe something that motivates one to solve moral problems in a certain
-way (\cite[p. 159]{sullins2006robots}). WRITE ABOUT SMITH ANS VICKERS OBJECTION
-
+other way around. 
 
 %
 %Who are the candidates?: The manufacturer, the user, the machine
@@ -1459,7 +1616,7 @@ way (\cite[p. 159]{sullins2006robots}). WRITE ABOUT SMITH ANS VICKERS OBJECTION
 
 I don't speak of the technical side. This is something that is actually really
 important, because how the robot actually is, how it is programmed can determine
-it's moral capacity and how we view it. (Johnson: Technology without any human
+its moral capacity and how we view it. (Johnson: Technology without any human
 responsibiltiy)
 
 
@@ -1493,6 +1650,12 @@ then, we have another resource? What if we have the resource to regard somthings
 with a reactive attitude that we would usually regard with an objective
 attitude? Cite: FREEDOM AND RESENTMENT PAGE 10. ALSO IN HIERONYMI
 \section{Conclusion}
+\section{Meditation}
+WHAT IS THIS SECTION ABOUT?
+MY THOUGHT ON MY JOURNEY.
+
+I CHANGED MY VIEW ON MORAL RESPONSIBILITY
+IT WAS DIFFICULT FOR ME TO AVOID RABBIT HOLES
 \section{Disclaimers}
 Put this in the beginning or even better into the introduction
 

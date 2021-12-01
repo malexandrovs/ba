@@ -1,14 +1,11 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=latex 2021.6.7)  19 NOV 2021 11:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.6.7)  30 NOV 2021 16:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**\makeatletter\def\HCode{\futurelet\HCode\HChar}\def\HChar{\ifx"\HCode\def\HCo
-de"##1"{\Link##1}\expandafter\HCode\else\expandafter\Link\fi}\def\Link#1.a.b.c.
-{\g@addto@macro\@documentclasshook{\RequirePackage[#1,html]{tex4ht}}\let\HCode\
-documentstyle\def\documentstyle{\let\documentstyle\HCode\expandafter\def\csname
- tex4ht\endcsname{#1,html}\def\HCode####1{\documentstyle[tex4ht,}\@ifnextchar[{
-\HCode}{\documentstyle[tex4ht]}}}\makeatother\HCode .a.b.c.\input  script.tex
- (./script.tex
+**script.tex
+(./script.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-02-18>
 (/usr/share/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
 (/usr/share/texmf-dist/tex/latex/base/size10.clo
@@ -26,24 +23,10 @@ File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
 )
-(/usr/share/texmf-dist/tex/generic/tex4ht/tex4ht.sty
-version 2021-03-06-13:30
-Package: tex4ht 
---------------------------------------
---- Note --- for _ at preamble, use the command line option `early_'
---------------------------------------
---------------------------------------
---- Note --- for ^ at preamble, use the command line option `early^'
---------------------------------------
-\tmp:toks=\toks15
-)
-(/usr/share/texmf-dist/tex/generic/tex4ht/usepackage.4ht
-version 2021-02-07-14:58
-)
 (/usr/share/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2020/08/01 v1.3d Input encoding file
-\inpenc@prehook=\toks16
-\inpenc@posthook=\toks17
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
 )
 (/usr/share/texmf-dist/tex/latex/dirtytalk/dirtytalk.sty
 Package: dirtytalk 2010/11/21 A package making "quoting" easier
@@ -53,7 +36,7 @@ Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 
 (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks18
+\KV@toks@=\toks17
 )
 (/usr/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
@@ -72,13 +55,10 @@ Package: color 2020/02/24 v1.2b Standard LaTeX Color (DPC)
 (/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package color Info: Driver file: dvips.def on input line 147.
+Package color Info: Driver file: pdftex.def on input line 147.
 
-(/usr/share/texmf-dist/tex/latex/graphics-def/dvips.def
-File: dvips.def 2017/06/20 v3.1d Graphics/color driver for dvips
-)
-(/usr/share/texmf-dist/tex/latex/graphics/dvipsnam.def
-File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+(/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
 (/usr/share/texmf-dist/tex/latex/glossaries/base/glossaries.sty
 Package: glossaries 2020/03/19 v4.46 (NLCT)
@@ -88,8 +68,8 @@ Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
 
 (/usr/share/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (/usr/share/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks19
-\XKV@tempa@toks=\toks20
+\XKV@toks=\toks18
+\XKV@tempa@toks=\toks19
 )
 \XKV@depth=\count188
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
@@ -101,8 +81,8 @@ Package: mfirstuc 2017/11/14 v2.06 (NLCT)
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count189
 )
-\@glsmfirst=\toks21
-\@glsmrest=\toks22
+\@glsmfirst=\toks20
+\@glsmrest=\toks21
 )
 (/usr/share/texmf-dist/tex/latex/textcase/textcase.sty
 Package: textcase 2019/09/14 v1.00 Text only upper/lower case changing (DPC)
@@ -123,7 +103,7 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 (/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks23
+\@emptytoks=\toks22
 \ex@=\dimen139
 ))
 (/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
@@ -153,21 +133,21 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \dotsspace@=\muskip16
 \c@parentequation=\count197
 \dspbrk@lvl=\count198
-\tag@help=\toks24
+\tag@help=\toks23
 \row@=\count199
 \column@=\count266
 \maxfields@=\count267
-\andhelp@=\toks25
+\andhelp@=\toks24
 \eqnshift@=\dimen142
 \alignsep@=\dimen143
 \tagshift@=\dimen144
 \tagwidth@=\dimen145
 \totwidth@=\dimen146
 \lineht@=\dimen147
-\@envbody=\toks26
+\@envbody=\toks25
 \multlinegap=\skip50
 \multlinetaggap=\skip51
-\mathdisplay@stack=\toks27
+\mathdisplay@stack=\toks26
 LaTeX Info: Redefining \[ on input line 2923.
 LaTeX Info: Redefining \] on input line 2924.
 )
@@ -226,7 +206,7 @@ Package: fp-upn 1996/10/21
 (/usr/share/texmf-dist/tex/latex/fp/fp-eval.sty
 Package: fp-eval 1995/04/03
 )))
-\@dtl@toks=\toks28
+\@dtl@toks=\toks27
 \@dtl@tmpcount=\count280
 \dtl@tmplength=\skip52
 \dtl@sortresult=\count281
@@ -240,12 +220,12 @@ Package: fp-eval 1995/04/03
 Package: glossaries-compatible-307 2020/03/19 v4.46 (NLCT)
 )
 \gls@level=\count287
-\@gls@tmpb=\toks29
+\@gls@tmpb=\toks28
 \gls@tmplen=\skip53
-\glskeylisttok=\toks30
-\glslabeltok=\toks31
-\glsshorttok=\toks32
-\glslongtok=\toks33
+\glskeylisttok=\toks29
+\glslabeltok=\toks30
+\glsshorttok=\toks31
+\glslongtok=\toks32
 (/usr/share/texmf-dist/tex/latex/glossaries/styles/glossary-hypernav.sty
 Package: glossary-hypernav 2020/03/19 v4.46 (NLCT)
 )
@@ -272,7 +252,7 @@ Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
 \LT@rows=\count290
 \c@LT@tables=\count291
 \c@LT@chunks=\count292
-\LT@p@ftn=\toks34
+\LT@p@ftn=\toks33
 )
 \glsdescwidth=\skip59
 \glspagelistwidth=\skip60
@@ -302,9 +282,6 @@ Package: supertabular 2020/02/02 v4.1g the supertabular environment
 Package: glossary-tree 2020/03/19 v4.46 (NLCT)
 \glstreeindent=\skip64
 ))
-(/usr/share/texmf-dist/tex/generic/tex4ht/biblatex-hooks.4ht
-version 2020-10-17-13:53
-)
 (/usr/share/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2020/12/31 v3.16 programmable bibliographies (PK/MW)
 
@@ -320,7 +297,7 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode is ignored in DVI mode.
+Package pdftexcmds Info: \pdfdraftmode found.
 )
 (/usr/share/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
@@ -396,7 +373,7 @@ Package biblatex Info: ... file 'blx-dm.def' found.
 File: blx-dm.def 2020/12/31 v3.16 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
-Package biblatex Info: ... file 'alphabetic.dbx' not found.
+Package biblatex Info: ... file 'authoryear.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@afterword=\count340
@@ -506,11 +483,11 @@ File: biblatex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
 \biburllcskip=\muskip21
 \c@smartand=\count416
 )
-Package biblatex Info: Trying to load bibliography style 'alphabetic'...
-Package biblatex Info: ... file 'alphabetic.bbx' found.
+Package biblatex Info: Trying to load bibliography style 'authoryear'...
+Package biblatex Info: ... file 'authoryear.bbx' found.
 
-(/usr/share/texmf-dist/tex/latex/biblatex/bbx/alphabetic.bbx
-File: alphabetic.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
+(/usr/share/texmf-dist/tex/latex/biblatex/bbx/authoryear.bbx
+File: authoryear.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
@@ -548,408 +525,13 @@ Package glossaries Info: Writing glossary file script.glo on input line 12.
 
 Package glossaries Info: Writing glossary file script.acn on input line 12.
 \c@example=\count419
+\@quotelevel=\count420
+\@quotereset=\count421
 
-(/usr/share/texmf-dist/tex/generic/tex4ht/tex4ht.4ht
-version 2020-03-12-14:03
---------------------------------------
---- Note --- for additional information, use the command line option `info'
---------------------------------------
-
-::::::::::::::::::::::::::::::::::::::::::
- TeX4ht info is available in the log file 
-::::::::::::::::::::::::::::::::::::::::::
-) (/usr/share/texmf-dist/tex/generic/tex4ht/tex4ht.sty
-version 2021-03-06-13:30
-
---- needs --- tex4ht script ---
-\tmp:cnt=\count420
-\openout15 = `script.tmp'.
-
-(./script.tmp)
-\tmp:dim=\skip87
---------------------------------------
---- Note --- for XML code, use the command line option `xml' or `xhtml'
---------------------------------------
-
-l.1472 --- TeX4ht warning --- No file script.xref ---
-\:refout=\write7
-\openout7 = `script.xref'.
-
-(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2021-03-06-13:31
---------------------------------------
---- Note --- to remove the <?xml version=...?> processing instruction use the c
-ommand line option `no-VERSION'
---------------------------------------
---------------------------------------
---- Note --- to remove the DOCTYPE declaration use the command line option `no-
-DOCTYPE'
---------------------------------------
-)
-(/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2021-01-30-14:17
-)
---------------------------------------
---- Note --- for marking of the base font, use the command line option `fonts+'
-
---------------------------------------
---------------------------------------
---- Note --- for non active _, use the command line option `no_'
---------------------------------------
---------------------------------------
---- Note --- for _ of catcode 13, use the command line option `_13'
---------------------------------------
---------------------------------------
---- Note --- for non active ^, use the command line option `no^'
---------------------------------------
---------------------------------------
---- Note --- for ^ of catcode 13, use the command line option `^13'
---------------------------------------
-
-(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2021-03-06-13:31
---------------------------------------
---- Note --- for alternative charset, use the command line option `charset=...'
-
---------------------------------------
---------------------------------------
---- Note --- to ignore CSS font decoration, use the `NoFonts' command line opti
-on
---------------------------------------
---------------------------------------
---- Note --- for jpg bitmaps of pictures, use the `jpg' command line option. (C
-haracter bitmaps are controled only by `g' records of tex4ht.env and `-g' switc
-hes of tex4ht.c) 
---------------------------------------
---------------------------------------
---- Note --- for gif bitmaps of pictures, use the `gif' command line option. (C
-haracter bitmaps are controled only by `g' records of tex4ht.env and `-g' switc
-hes of tex4ht.c) 
---------------------------------------
---------------------------------------
---- Note --- for content and toc in 2 frames, use the command line option `fram
-es'
---------------------------------------
---------------------------------------
---- Note --- for content, toc, and footnotes in 3 frames, use the command line 
-option `frames-fn'
---------------------------------------
---------------------------------------
---- Note --- for file extension name xht, use the command line option `xht'
---------------------------------------
-TeX4ht package options: html
---------------------------------------
---- Note --- To print a timestamp, use the command line option timestamp
---------------------------------------
---------------------------------------
---- Note --- to ignore CSS code, use the command line option `-css
---------------------------------------
---------------------------------------
---- Note --- for inline CSS code, use the command line option `css-in'
---------------------------------------
---------------------------------------
---- Note --- for pop ups on mouse over, use the command line option `mouseover'
-
---------------------------------------
---------------------------------------
---- Note --- for addressing images in a subdirectory, use the command line opti
-on `imgdir:.../'
---------------------------------------
-)
-(/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2021-01-30-14:17
-)
-\:tokwrite=\toks35
-\:tokpage=\toks36
---------------------------------------
---- Note --- for back links to toc, use the command line option `sections+'
---------------------------------------
---------------------------------------
---- Note --- for linear crosslinks of pages, use the command line option `next'
-
---------------------------------------
-\:tocout=\write8
-\openout8 = `script.4tc'.
-
-
-(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2021-03-06-13:31
-)
-(/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2021-01-30-14:17
-)
-(/usr/share/texmf-dist/tex/generic/tex4ht/latex.4ht
-version 2021-02-06-14:21
-LaTeX Info: Redefining \_ on input line 173.
-LaTeX Info: Redefining \, on input line 791.
-LaTeX Info: Redefining \; on input line 792.
-LaTeX Info: Redefining \! on input line 793.
-LaTeX Info: Redefining \: on input line 794.
-LaTeX Info: Redefining \> on input line 795.
---------------------------------------
---- Note --- for links into captions, instead of float heads, use the command l
-ine option `refcaption'
---------------------------------------
-
-(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2021-03-06-13:31
-)
-(/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2021-01-30-14:17
-)
-(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2021-03-06-13:31
---------------------------------------
---- Note --- For mini tocs immediately aftter the header use the command line o
-ption `minitoc<'
---------------------------------------
---------------------------------------
---- Note --- for enumerated list elements with valued data, use the command lin
-e option `enumerate+'
---------------------------------------
---------------------------------------
---- Note --- for enumerated list elements li's with value attributes, use the c
-ommand line option `enumerate-'
---------------------------------------
---------------------------------------
---- Note --- for CSS2 code, use the command line option `css2'
---------------------------------------
---------------------------------------
---- Note --- for pictorial tabular, use the command line option `pic-tabular'
---------------------------------------
---------------------------------------
---- Note --- for bitmap fbox'es, use the command line option `pic-fbox'
---------------------------------------
---------------------------------------
---- Note --- for bitmap framebox'es, use the command line option `pic-framebox'
-
---------------------------------------
---------------------------------------
---- Note --- for inline footnotes use command line option `fn-in'
---------------------------------------
---------------------------------------
---- Note --- for tracing of latex font commands, use the command line option `f
-onts'
---------------------------------------
---------------------------------------
---- Note --- for width specifications of tabular p entries, use the `p-width' c
-ommand line option or a configuration similar to \Configure{HColWidth}{\HCode{ 
-style="width:\HColWidth"}}
---------------------------------------
-)
-(/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2021-01-30-14:17
---------------------------------------
---- Note --- for pictorial eqnarray, use the command line option `pic-eqnarray'
-
---------------------------------------
---------------------------------------
---- Note --- for pictorial array, use the command line option `pic-array'
---------------------------------------
---------------------------------------
---- Note --- for pictorial $...$ environments, use the command line option `pic
--m' (not recommended!!)
---------------------------------------
---------------------------------------
---- Note --- for pictorial $...$ and $$...$$ environments with latex alt, use t
-he command line option `pic-m+' (not safe!!)
---------------------------------------
---------------------------------------
---- Note --- for pictorial array, use the command line option `pic-array'
---------------------------------------
-))
-(/usr/share/texmf-dist/tex/generic/tex4ht/fontmath.4ht
-version 2018-11-06-15:55
-
-(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2021-03-06-13:31
-)
-(/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2021-01-30-14:17
-))
-(/usr/share/texmf-dist/tex/generic/tex4ht/article.4ht
-(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2021-03-06-13:31
---------------------------------------
---- Note --- for automatic sectioning pagination, use the command line option `
-1', `2', `3', '4', '5', '6', or '7'
---------------------------------------
---------------------------------------
---- Note --- for files named derived from section titles, use the command line 
-option `sec-filename'
---------------------------------------
---------------------------------------
---- Note --- for i-columns index, use the command line option `index=i' (e.g., 
-index=2)
---------------------------------------
-)
-(/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2021-01-30-14:17
-))
-(/usr/share/texmf-dist/tex/generic/tex4ht/inputenc.4ht
-version 2009-05-21-09:32
-
-(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2021-03-06-13:31
-)
-(/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2021-01-30-14:17
-))
-(/usr/share/texmf-dist/tex/generic/tex4ht/ifthen.4ht
-version 2009-05-21-09:32
-
-(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2021-03-06-13:31
-)
-(/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2021-01-30-14:17
-))
-(/usr/share/texmf-dist/tex/generic/tex4ht/color.4ht
-(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2021-03-06-13:31
-)
-(/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2021-01-30-14:17
-))
-(/usr/share/texmf-dist/tex/generic/tex4ht/dvips.4ht
-version 2009-05-21-09:32
-
-(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2021-03-06-13:31
-)
-(/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2021-01-30-14:17
-))
-(/usr/share/texmf-dist/tex/generic/tex4ht/dvipsnam.4ht
-version 2009-05-21-09:32
-
-(/usr/share/texmf-dist/tex/latex/graphics/dvipsnam.def)
-(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2021-03-06-13:31
-)
-(/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2021-01-30-14:17
-))
-(/usr/share/texmf-dist/tex/generic/tex4ht/glossaries.4ht
-version 2009-05-21-09:32
-
-(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2021-03-06-13:31
-)
-(/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2021-01-30-14:17
-))
-(/usr/share/texmf-dist/tex/generic/tex4ht/amsmath.4ht
-version 2019-12-29-14:17
-\tmp:muskip=\muskip22
-
-(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2021-03-06-13:31
-)
-(/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2021-01-30-14:17
-LaTeX Info: Redefining \[ on input line 503.
-LaTeX Info: Redefining \] on input line 503.
-))
-(/usr/share/texmf-dist/tex/generic/tex4ht/amstext.4ht
-version 2009-05-21-09:32
-
-(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2021-03-06-13:31
-)
-(/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2021-01-30-14:17
-))
-(/usr/share/texmf-dist/tex/generic/tex4ht/amsbsy.4ht
-version 2009-05-21-09:32
-
-(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2021-03-06-13:31
-)
-(/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2021-01-30-14:17
-))
-(/usr/share/texmf-dist/tex/generic/tex4ht/amsopn.4ht
-version 2009-05-21-09:32
-
-(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2021-03-06-13:31
-)
-(/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2021-01-30-14:17
-))
-(/usr/share/texmf-dist/tex/generic/tex4ht/longtable.4ht
-\LT:box=\box54
-\LT:ebox=\box55
-\tmp:bx=\box56
-
-(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2021-03-06-13:31
---------------------------------------
---- Note --- for pictorial longtable, use the command line option `pic-longtabl
-e'
---------------------------------------
-)
-(/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2021-01-30-14:17
-))
-(/usr/share/texmf-dist/tex/generic/tex4ht/supertabular.4ht
-version 2009-05-21-09:32
-
-(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2021-03-06-13:31
-)
-(/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2021-01-30-14:17
-))
-(/usr/share/texmf-dist/tex/generic/tex4ht/biblatex.4ht
-version 2021-03-02-13:43
-\sv:sec:cnt=\count421
-\c@bib=\count422
-LaTeX Info: Redefining \MakeUppercase on input line 211.
-LaTeX Info: Redefining \MakeLowercase on input line 219.
-\blx@unitmark=\skip88
-
-(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2021-03-06-13:31
-)
-(/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2021-01-30-14:17
-))
-(/usr/share/texmf-dist/tex/generic/tex4ht/url.4ht
-version 2009-05-21-09:32
-
-(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2021-03-06-13:31
---------------------------------------
---- Note --- for URL encoding within href use the command line option `url-enc'
-
---------------------------------------
-)
-(/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2021-01-30-14:17
-))
-(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2021-03-06-13:31
-)
-(/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2021-01-30-14:17
-))
-
-Package biblatex Warning: Patching footnotes failed.
-(biblatex)                Footnote detection will not work.
-
-\@quotelevel=\count423
-\@quotereset=\count424
-(/usr/share/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
-File: l3backend-dvips.def 2021-03-18 L3 backend support: dvips
-\l__pdf_internal_box=\box57
-\g__pdf_backend_object_int=\count425
-\l__pdf_backend_content_box=\box58
-\l__pdf_backend_model_box=\box59
-\g__pdf_backend_annotation_int=\count426
-\g__pdf_backend_link_int=\count427
-\g__pdf_backend_link_sf_int=\count428
+(/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count422
+\l__pdf_internal_box=\box54
 ) (./script.aux)
 \openout1 = `script.aux'.
 
@@ -967,10 +549,23 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
 LaTeX Font Info:    ... okay on input line 28.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
 LaTeX Font Info:    ... okay on input line 28.
+(/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count423
+\scratchdimen=\dimen159
+\scratchbox=\box55
+\nofMPsegments=\count424
+\nofMParguments=\count425
+\everyMPshowfont=\toks34
+\MPscratchCnt=\count426
+\MPscratchDim=\dimen160
+\MPnumerator=\count427
+\makeMPintoPDFobject=\count428
+\everyMPtoPDFconversion=\toks35
+)
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
-
-(/usr/share/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+ (/usr/share/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
 )
 Package biblatex Info: Input encoding 'utf8' detected.
@@ -978,9 +573,6 @@ Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
 Package biblatex Info: Document encoding is UTF8 ....
 
-(/usr/share/texmf-dist/tex/generic/tex4ht/expl3-hooks.4ht
-version 2020-10-17-13:53
-)
 (/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2021-02-18 L3 programming layer (loader) 
 )
@@ -990,17 +582,8 @@ Package biblatex Info: ... and expl3
 (biblatex)             setting 'casechanger=expl3'.
 
 (/usr/share/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
-(/usr/share/texmf-dist/tex/generic/tex4ht/expl3-hooks.4ht
-version 2020-10-17-13:53
-)
 (/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-(/usr/share/texmf-dist/tex/generic/tex4ht/expl3-hooks.4ht
-version 2020-10-17-13:53
-)
 (/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse-2020-10-01.sty
-(/usr/share/texmf-dist/tex/generic/tex4ht/expl3-hooks.4ht
-version 2020-10-17-13:53
-)
 (/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex)))
 Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 )
@@ -1009,46 +592,182 @@ Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'script.bbl' found.
 
-(./script.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                sullins2006robots
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
+(./script.bbl)
 Package biblatex Info: Reference section=0 on input line 28.
 Package biblatex Info: Reference segment=0 on input line 28.
---- file script.css ---
  [1
 
 \openout4 = `script.ist'.
 
-] [1] [2] [3]
-No file script.4tc
-[1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17]
-[18] [19] [20] [21] [22] [23] [24] [25] (./script.acr
-! Undefined control sequence.
-\indexspace ->\idx:item 
-                        \hbox {\end:theidx \HCode {<p class="theindex">}}\de...
-l.7 ...r[]{page}\glsnumberformat{2}}}\glsgroupskip
-                                                  
-? 
-! Emergency stop.
-\indexspace ->\idx:item 
-                        \hbox {\end:theidx \HCode {<p class="theindex">}}\de...
-l.7 ...r[]{page}\glsnumberformat{2}}}\glsgroupskip
-                                                  
-End of file on the terminal!
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+(./script.toc)
+\tf@toc=\write7
+\openout7 = `script.toc'.
 
- 
+ [1]
+Underfull \hbox (badness 10000) in paragraph at lines 64--68
+
+ []
+
+[2] [3]
+Underfull \hbox (badness 10000) in paragraph at lines 170--172
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 222--231
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 232--238
+
+ []
+
+[4] [5] [6]
+Underfull \hbox (badness 10000) in paragraph at lines 367--368
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 368--370
+
+ []
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 477--482
+
+ []
+
+[8]
+Overfull \hbox (6.66064pt too wide) in paragraph at lines 539--541
+[]\OT1/cmr/m/n/10 SHOEMAKER SAYS: MORAL RE-SPON-SI-BIL-ITY IS, AT LEAST IN PART
+,
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 592--597
+
+ []
+
+
+Overfull \hbox (14.36563pt too wide) in paragraph at lines 601--607
+[]\OT1/cmr/m/n/10 UNDER STRAW-SONS AC-COUNT THERE IS NO SUCH THING AS MORAL
+ []
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 616--638
+
+ []
+
+[11] [12] [13]
+Underfull \hbox (badness 10000) in paragraph at lines 998--1000
+
+ []
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 1004--1011
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1052--1053
+
+ []
+
+[15]
+Overfull \hbox (1.17459pt too wide) in paragraph at lines 1142--1146
+\OT1/cmr/m/n/10 ABOVE PARA-GRAPH: THE QUES-TION ABOUT THE QUES-TION IT-SELF.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1149--1151
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1165--1169
+
+ []
+
+[16]
+Overfull \hbox (20.883pt too wide) in paragraph at lines 1194--1198
+\OT1/cmr/m/n/10 THE DE-VEL-OP-MENT OF SUCH AU-TONOMOUS ROBOTS (SPAR-ROW/Robots
+ []
+
+
+Overfull \hbox (17.28351pt too wide) in paragraph at lines 1206--1212
+\OT1/cmr/m/n/10 2) WHAT KIND OF AU-TONOMOUS SYS-TEM ARE THEY TALK-ING ABOUT?? 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1206--1212
+
+ []
+
+[17] [18]
+Overfull \hbox (2.14447pt too wide) in paragraph at lines 1272--1273
+[]\OT1/cmr/m/n/10 PUT HERE A PARA-GRAPH ABOUT THE CON-CEP-TUAL SPACE THAT
+ []
+
+[19] [20] [21]
+Underfull \hbox (badness 10000) in paragraph at lines 1367--1370
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1374--1376
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1377--1380
+
+ []
+
+[22] [23]
+Overfull \hbox (27.08762pt too wide) in paragraph at lines 1576--1581
+\OT1/cmr/m/n/10 Discuss ar-ti-fi-cial agency \OT1/cmr/bx/n/10 Tigard: dif-fer-e
+nt types of re-spon-si-bil-ity/SmithVickers
+ []
+
+[24] [25] [26] (./script.acr) (./script.gls)
+Overfull \hbox (0.19986pt too wide) in paragraph at lines 1675--1675
+[][]\OT1/cmr/m/n/10 Misselhorn, Catrin (2018). \OT1/cmr/m/it/10 Grund-fra-gen d
+er Maschinenethik: Reclams Universal-
+ []
+
+[27
+
+] [28] (./script.aux)
+Package logreq Info: Writing requests to 'script.run.xml'.
+\openout1 = `script.run.xml'.
+
+ ) 
 Here is how much of TeX's memory you used:
- 17606 strings out of 478995
- 286989 string characters out of 5864778
- 1098570 words of memory out of 5000000
- 34765 multiletter control sequences out of 15000+600000
- 409507 words of font info for 48 fonts, out of 8000000 for 9000
+ 13349 strings out of 478994
+ 235035 string characters out of 5864752
+ 1008453 words of memory out of 5000000
+ 30650 multiletter control sequences out of 15000+600000
+ 410315 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 113i,6n,141p,1520b,1260s stack positions out of 5000i,500n,10000p,200000b,80000s
-Output written on script.dvi (29 pages, 103024 bytes).
+ 102i,8n,102p,1060b,1257s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
+r/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></
+usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-dist/fonts/ty
+pe1/public/cm-super/sfrm1000.pfb>
+Output written on script.pdf (29 pages, 242402 bytes).
+PDF statistics:
+ 151 PDF objects out of 1000 (max. 8388607)
+ 105 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
