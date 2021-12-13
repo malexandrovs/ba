@@ -19,6 +19,37 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
+    \entry{bryson2010robots}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a7521dd374d12145d6057517263c662d}{%
+           family={Bryson},
+           familyi={B\bibinitperiod},
+           given={Joanna\bibnamedelima J},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Natural Language Processing}%
+      }
+      \strng{namehash}{a7521dd374d12145d6057517263c662d}
+      \strng{fullhash}{a7521dd374d12145d6057517263c662d}
+      \strng{bibnamehash}{a7521dd374d12145d6057517263c662d}
+      \strng{authorbibnamehash}{a7521dd374d12145d6057517263c662d}
+      \strng{authornamehash}{a7521dd374d12145d6057517263c662d}
+      \strng{authorfullhash}{a7521dd374d12145d6057517263c662d}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Close Engagements with Artificial Companions: Key social, psychological, ethical and design issues}
+      \field{title}{Robots should be slaves}
+      \field{volume}{8}
+      \field{year}{2010}
+      \field{pages}{63\bibrangedash 74}
+      \range{pages}{12}
+    \endentry
     \entry{coeckelbergh2014moral}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=cfd4ef5d8e7e582d15ecead767493fc1}{%
@@ -51,6 +82,38 @@
       \field{pages}{61\bibrangedash 77}
       \range{pages}{17}
     \endentry
+    \entry{gunkel2020mind}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f10bb8c92304eb48cc0e9eb1e7a52c31}{%
+           family={Gunkel},
+           familyi={G\bibinitperiod},
+           given={David\bibnamedelima J},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{f10bb8c92304eb48cc0e9eb1e7a52c31}
+      \strng{fullhash}{f10bb8c92304eb48cc0e9eb1e7a52c31}
+      \strng{bibnamehash}{f10bb8c92304eb48cc0e9eb1e7a52c31}
+      \strng{authorbibnamehash}{f10bb8c92304eb48cc0e9eb1e7a52c31}
+      \strng{authornamehash}{f10bb8c92304eb48cc0e9eb1e7a52c31}
+      \strng{authorfullhash}{f10bb8c92304eb48cc0e9eb1e7a52c31}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ethics and Information Technology}
+      \field{number}{4}
+      \field{title}{Mind the gap: responsible robotics and the problem of responsibility}
+      \field{volume}{22}
+      \field{year}{2020}
+      \field{pages}{307\bibrangedash 320}
+      \range{pages}{14}
+    \endentry
     \entry{heidegger1977technology}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=79b1e6f4199aeb3f853ca7cba607bfdc}{%
@@ -78,6 +141,38 @@
       \field{note}{Translated by William Lovitt}
       \field{title}{The Question Concerning Technology and Other Essays}
       \field{year}{1977}
+    \endentry
+    \entry{johnson2006computer}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5c7d803db3938057cf64122f7917f181}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={Deborah\bibnamedelima G},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{5c7d803db3938057cf64122f7917f181}
+      \strng{fullhash}{5c7d803db3938057cf64122f7917f181}
+      \strng{bibnamehash}{5c7d803db3938057cf64122f7917f181}
+      \strng{authorbibnamehash}{5c7d803db3938057cf64122f7917f181}
+      \strng{authornamehash}{5c7d803db3938057cf64122f7917f181}
+      \strng{authorfullhash}{5c7d803db3938057cf64122f7917f181}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ethics and information technology}
+      \field{number}{4}
+      \field{title}{Computer systems: Moral entities but not moral agents}
+      \field{volume}{8}
+      \field{year}{2006}
+      \field{pages}{195\bibrangedash 204}
+      \range{pages}{10}
     \endentry
     \entry{Matthias_2004}{article}{}
       \name{author}{1}{}{%
@@ -502,14 +597,47 @@
       \field{pages}{23\bibrangedash 30}
       \range{pages}{8}
     \endentry
+    \entry{tigard2021artificial}{article}{}
+      \name{author}{1}{}{%
+        {{un=2,uniquepart=given,hash=665f0276f6632e991c0768fa02342108}{%
+           family={Tigard},
+           familyi={T\bibinitperiod},
+           given={Daniel\bibnamedelima W},
+           giveni={D\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=2}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{665f0276f6632e991c0768fa02342108}
+      \strng{fullhash}{665f0276f6632e991c0768fa02342108}
+      \strng{bibnamehash}{665f0276f6632e991c0768fa02342108}
+      \strng{authorbibnamehash}{665f0276f6632e991c0768fa02342108}
+      \strng{authornamehash}{665f0276f6632e991c0768fa02342108}
+      \strng{authorfullhash}{665f0276f6632e991c0768fa02342108}
+      \field{extraname}{1}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cambridge Quarterly of Healthcare Ethics}
+      \field{number}{3}
+      \field{title}{Artificial moral responsibility: How we can and cannot hold machines responsible}
+      \field{volume}{30}
+      \field{year}{2021}
+      \field{pages}{435\bibrangedash 447}
+      \range{pages}{13}
+    \endentry
     \entry{Tigard_2020}{article}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=665f0276f6632e991c0768fa02342108}{%
+        {{un=2,uniquepart=given,hash=665f0276f6632e991c0768fa02342108}{%
            family={Tigard},
            familyi={T\bibinitperiod},
            given={Daniel\bibnamedelima W.},
            giveni={D\bibinitperiod\bibinitdelim W\bibinitperiod},
-           givenun=0}}%
+           givenun=2}}%
       }
       \list{publisher}{2}{%
         {Springer Science}%
@@ -521,6 +649,7 @@
       \strng{authorbibnamehash}{665f0276f6632e991c0768fa02342108}
       \strng{authornamehash}{665f0276f6632e991c0768fa02342108}
       \strng{authorfullhash}{665f0276f6632e991c0768fa02342108}
+      \field{extraname}{2}
       \field{sortinit}{T}
       \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
       \field{extradatescope}{labelyear}
