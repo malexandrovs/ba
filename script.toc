@@ -16,30 +16,30 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3}What are the machines we will be talking about?}{12}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Can we Bridge the Gap?}{13}{}%
+\contentsline {section}{\numberline {3}How Big is the Gap}{13}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1}Why humans cannot be responsible}{15}{}%
+\contentsline {subsection}{\numberline {3.1}Where Human Responsibility Ends}{15}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2}Can Machines Be Responsible?}{16}{}%
+\contentsline {subsection}{\numberline {3.2}Where Machine Responsibility Begins}{17}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.1}How Machines Could Be Responsible}{17}{}%
+\contentsline {subsubsection}{\numberline {3.2.1}Why Machines Cannot Be Responsible}{24}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.2}Why Machines Cannot Be Responsible}{23}{}%
+\contentsline {section}{\numberline {4}Filling the Gap}{27}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Real World Problems}{26}{}%
+\contentsline {section}{\numberline {5}Real World Problems}{29}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1}Autonomous Weapon Systems}{26}{}%
+\contentsline {subsection}{\numberline {5.1}Autonomous Weapon Systems}{29}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2}Healthcare}{26}{}%
+\contentsline {subsection}{\numberline {5.2}Healthcare}{29}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3}COMPAS}{26}{}%
+\contentsline {subsection}{\numberline {5.3}COMPAS}{29}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Discussion}{26}{}%
+\contentsline {section}{\numberline {6}Discussion}{29}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Conclusion}{27}{}%
+\contentsline {section}{\numberline {7}Conclusion}{30}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}Meditation}{27}{}%
+\contentsline {section}{\numberline {8}Meditation}{30}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8}Disclaimers}{27}{}%
+\contentsline {section}{\numberline {9}Disclaimers}{30}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9}Acknowledgements}{28}{}%
+\contentsline {section}{\numberline {10}Acknowledgements}{30}{}%

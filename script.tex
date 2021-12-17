@@ -3,6 +3,7 @@
 \usepackage{dirtytalk}
 \usepackage{color}
 \usepackage{tikz}
+\usetikzlibrary{patterns}
 \usepackage[acronym]{glossaries}
 \usepackage[backend=biber,style=authoryear,citestyle=authoryear]{biblatex}
 \addbibresource{bib.bib}
@@ -17,6 +18,7 @@
 \newacronym{ai}{AI}{Artificial Intelligence}
 \newacronym{ml}{ML}{Machine Learning}
 \newacronym{aws}{AWS}{Autonomous Weapon System}
+\newacronym{ann}{ANN}{Artificial Neural Network}
 
 
 
@@ -1014,6 +1016,9 @@ decisions based on its prior experience without the programmer or user knowing
 what the decision is going to be or understanding how it came about.}} (Taken
 from page 4 of this very document).
 
+ANOTHER NOTION FOR AUTONOMY: AUTONOMY MEANS TO BE ABLE TO CHOSE YOUR OWN GOALS
+(SPARROW TRUE AUTONOMY)
+
 What is important is, that the autonomous decisions are in some sense
 intelligent but also somewhat unpredictable and untransparent.\\
 
@@ -1106,7 +1111,7 @@ END. MAYBE ADD A 'MOSTLY'.
 %AND VERY FUZZY AND SHORT... I HATE IT. PERHAPS I WILL FIND STRONGER CONTENT TO
 %PUT INTO IT...
 
-\section{Can we Bridge the Gap?}
+\section{How Big is the Gap}
 
 The story sofar:\\
 We have defined moral responsibility to be an openness for moral appraisal.
@@ -1149,59 +1154,89 @@ autonomous robot warfare as a similar dissection of the relevant actors can be
 found in Deborah Johnsons \say{triad of intentionality} (\cite[p.
 202]{johnson2006computer}). It seems that the three targets (programmer, user,
 machine) are also intuitively where to look for responsibility and we will mainly
-focus on them. Sparrow further says that with increasing autonomy and capacity
+focus on them.\\
+
+Sparrow further says that with increasing autonomy and capacity
 of the AI system, the locus of responsibility changes from the involved humans
 to the system itself. However, the transition between these stages is not
 instant. According to Sparrow, these stages are separated by a \say{conceptual
-space}, where the ascription of responsibility is problematic. A system, that
-falls into this inbetween space is on the one hand too autonomous for a human to
-be responsible for it, on the other hand not autonomous enough to be responsible
-for itself.\\
+space}, where the ascription of responsibility is problematic
+(\cite[p.74]{sparrow2007killer}). A system, that
+falls into this interspace would be on the one hand too autonomous for a human to
+be responsible for it - on the other hand not autonomous enough to be responsible
+for itself. We can give this space a name: The responsibility gap.\\
 
 \begin{tikzpicture}
-	\draw[step=1cm,gray,very thin] (0.2,0.2) grid (5.8,5.8);
+	%\draw[step=1cm,gray,very thin] (0.2,0.2) grid (5.8,5.8);
 	\draw[thick,-] (0,0) -- (6,0);
-	\draw[thick,-] (0.5,4.2) -- (5.5,4.2) node[anchor=west] {Upper Bound};
-	\draw[thick,-] (0.5,1.5) -- (5.5,1.5) node[anchor=west] {Lower Bound};
-	\draw[thick,->] (3,0) -- (3,6) node[anchor=south] {\textbf{Autonomy}};
+	\draw[thick,->] (3,0) -- (3,6) node[anchor=south] {\textbf{Advancement}};
+	\draw[pattern=north west lines, pattern color=blue, draw=white] (0,1.5) rectangle (6,4.2);
+	\draw[fill=white, draw=white] (1.15,2.75) rectangle (4.85,3.25) node[pos=.5] {\textit{The Responsibility Gap}};
+	\draw[very thick,-] (-0.5,4.2) -- (6.5,4.2) node[anchor=south west] {Upper Bound};
+	\draw[very thick,-] (-0.5,1.5) -- (6.5,1.5) node[anchor=north west] {Lower Bound};
 \end{tikzpicture}
 \\
 
-Sparrow also says that the upper and lower boundaries of this space are fuzzy
-CITE. Using this picture, we will later see, how the different authors respond
-to the responsibility gap, by placing the upper and lower bounds at different
-heights.
-
-On the one hand,
-the system is too autonomous for humans to be responsible, on the other hand it
-m
-
-%MAKE PARAGRAPH MORE FLOWY
 
 
-Before moving on, I shall present a brief argument, that will help us structure
-the assessment of the question:
+The diagram nicely visualises what Sparrow means. The Advancement-axis
+simplistically denotes bla bla bla
 
-The debate around the responsibility gap is centered around the argument that
-when an autonomous AI does something, neither the programmer nor the user can
-reasonably be considered morally responsible. If then, the AI cannot be
-considered responsible as well, we are faced with a sitiuation where something
-has happened and no one can be considered responsible. I would like to now go
-back and lay out the arguments of those who say that the problem exists in the
-first place; those who say that we will not be able to deal with the problem of
-responsibility ascription in the same way we are used to by subscribing to the
-above mentioned instrumental theory; those who say that the involved humabns are
-not responsible nor is the machine. 
+Below the \textit{Lower Bound}
+the responsibility falls onto humans. Above the \textit{Upper Bound} it falls
+onto the machine. Inbetween is the responsibility gap. The rest of this section
+will consider possible responses to the responsibility gap and how to deal with
+it. What we will see is that the authors vary strongly in where they draw the
+upper and lower bound. For some they are distinct and form the responsibility
+gap; for some they coalesce and form one single threshold, with no space for the
+gap; for some these separating lines do not exist at all. Depending on that, the
+responses to the responsibility gap differ accordingly.
+
+
+
+%Sparrow also says that the upper and lower boundaries of this space are fuzzy
+%CITE. Using this picture, we will later see, how the different authors respond
+%to the responsibility gap, by placing the upper and lower bounds at different
+%heights.
+%
+%On the one hand,
+%the system is too autonomous for humans to be responsible, on the other hand it
+%m
+%
+%%MAKE PARAGRAPH MORE FLOWY
+%
+%
+%Before moving on, I shall present a brief argument, that will help us structure
+%the assessment of the question:
+%
+%The debate around the responsibility gap is centered around the argument that
+%when an autonomous AI does something, neither the programmer nor the user can
+%reasonably be considered morally responsible. If then, the AI cannot be
+%considered responsible as well, we are faced with a sitiuation where something
+%has happened and no one can be considered responsible. I would like to now go
+%back and lay out the arguments of those who say that the problem exists in the
+%first place; those who say that we will not be able to deal with the problem of
+%responsibility ascription in the same way we are used to by subscribing to the
+%above mentioned instrumental theory; those who say that the involved humabns are
+%not responsible nor is the machine. 
 
 %MY ARGUMENTATION MUST BE CLEAR HERE. DO PEOPLE UNDERSTAND WHAT I AM GOING TO?
 %WHAT AM I GOING TO IN THE ABOVE PARAGRAPH: THE QUESTION ABOUT THE QUESTION
 %ITSELF. WHAT MOTVIATES US TO THINK OF THE RG: HUMANS ARE NOT RESPONSIBLE IN THE
 %SAME WAY THEY USED TO BE. LET US EXAMINE WHO SAYS THAT.
 
-\subsection{Why humans cannot be responsible}
+\subsection{Where Human Responsibility Ends}
 
-Let us reconsider Matthias' argument for the responsibility gap. Matthias says
-that\\
+The lower bound is the answer to the question: Can there be machines that humans
+cannot be morally responsible for?\\
+Let us again consider Angela Smiths account of moral responsibility. She says that one is
+only responsible for actions that are the results of ones own evaluative
+judgements. We might imagine AI systems that have a certain kind of autonomy such
+that their actions do not refelct any humans evaluative judgements. For that, we
+only need to consider examples from science fiction media, like C-3PO from the Star
+Wars universe.\\
+
+Andreas Matthias draws the line a at point that is less abstract. He says that\\
 
 \say{[f]or a person to be \textit{rightly} held responsible, that is, in
 accordance with our sense of justice, she must have \textit{control} over her
@@ -1214,12 +1249,18 @@ Further, he says that machine learning technology will lead to a decrease of
 control humans will have over machines and their doings. People will not be able
 to predict what a machine does nor understand why it did it. The control
 requirement would not be fulfilled and no person could `rightly' be held
-responsible.
+responsible.\\ 
 
-Matthias does not really consider the machine to be an appropriate locus of
-responsibility. I assume that the machines he talks about are just that:
-machines, tools, systems to be used by humans. They cannot have
-responsibility.\\
+This is where Matthias draws the lower bound: When neither the programmer nor
+the user can properly predict or explain, what the machine
+does.\footnote{Matthias does not really consider the machine to be an
+	appropriate locus of responsibility. His essay gives no clue to where he
+would draw the upper bound.}
+
+%Matthias does not really consider the machine to be an appropriate locus of
+%responsibility. I assume that the machines he talks about are just that:
+%machines, tools, systems to be used by humans. They cannot have
+%responsibility.\\
 
 Sparrow considers how humans could be responsible and comes to the conclusion,
 that, if the system is truly autonomous, no human can be responsible for it. The
@@ -1232,7 +1273,8 @@ the programmer is released from bearing the responsibility and it would be taken
 over by the user, the commanding officer, the physician employing the
 technology. But they as well would not be appropriate targets of responsibility
 in Sparrow's view. He reasons that if the AI was truly autonomous, it would
-\textit{choose} its actions on its own (\cite[p. 70]{sparrow2007killer}). It
+\textit{choose} its actions on its own (\cite[p. 70]{sparrow2007killer}) and
+define its own ends (\cite[p. 74]{sparrow2007killer}). It
 seems to me that Sparrow suggests that an autonomous AI would exercise a will.
 And it would not be fair to hold the user responsible for something that
 originated from the will of such a machine.
@@ -1245,7 +1287,33 @@ behaviour and be unpredictable for humans. He specifically mentions neural
 networks, genetic algorithms and reinforcement learning; technologies that
 already exist. Sparrow talks about systems that are much more sophisticated and
 further down the road. For him, the problem of the responsibility gap only
-arises with \say{true} autonomy in a philosphically most rigorous sense (see p.
+arises with the kind of autonomy, that allows the machine to choose its own
+goals.
+
+We can visualise the difference in Matthias' and Sparrows views in our neat
+little diagram:
+
+
+
+\begin{tikzpicture}
+	%\draw[step=1cm,gray,very thin] (0.2,0.2) grid (5.8,5.8);
+	\draw[thick,-] (0,0) -- (6,0);
+	\draw[pattern=north west lines, pattern color=blue, draw=white] (0,1.5)
+		rectangle (3,5.9);
+	\draw[pattern=north west lines, pattern color=blue, draw=white] (3,4.2)
+		rectangle (6,5.9);
+	\draw[thick,->] (3,0) -- (3,6) node[anchor=south] {\textbf{Advancement}};
+	\draw[fill=white, draw=white] (1.15,4.75) rectangle (4.85,5.25) node[pos=.5] {\textit{The Responsibility Gap}};
+	\draw[very thick,-] (3,4.2) -- (6.5,4.2) node[anchor=south west]
+		{Sparrows Lower Bound};
+	\draw[very thick,-] (-0.5,1.5) -- (3,1.5) node[anchor=north west]
+		{Matthias' Lower Bound};
+\end{tikzpicture}
+\\
+
+PUT DIAGRAM HERE
+
+\say{true} autonomy in a philosphically most rigorous sense (see p.
 \pageref{sparrow_autonomy}).
 
 'However, legal questions regarding how is responsible for the acrions of
@@ -1275,11 +1343,11 @@ Machines p.191
 %4) WHO SUPPORTS THEIR ARGUMENT??\\
 %5) WHO DISAGREES WITH THEIR ARGUMENT??\\
 
-\subsection{Can Machines Be Responsible?}
+\subsection{Where Machine Responsibility Begins}
 
 If the argumentation above is convincing, there is a degree of autonomy that
 machines can achieve that which would render it unfair to hold the programmers and users
-responible for it. It then makes sense to explore the third possible locus of
+responsible for it. It then makes sense to explore the third possible locus of
 responsibility, that Sparrow talks about: The machine *ominous music starts
 playing*
 
@@ -1289,17 +1357,19 @@ assumption that a morally responsible agent is a full moral agent. They are
 the same thing. This is in line with Strawsons statement that having reactive
 attitudes towards someone is to see them as a member of the moral community
 (see page \pageref{responsibility_implies_agency}). Demonstrating the truth of
-that assumption goes beyond the scope of this thesis, but I will accept it
+that assumption goes beyond the scope of this thesis, but we shall accept it
 because of its intuitive validity. We will thus see that the search for how
 machines can be responsible will lead us occasionally to the question about
 how machines can be moral agents. So please do not be confused.\\
 So, we find agreement among the authors that in order to be responsible,
 machines must be moral agents. However, we will encounter a lot of disagreement
 about what makes a machine a moral agent or whether they can achieve this status
-at all.
-Though we find agreement that in order to be responsible, machines must be full
-moral agents, we will encounter a lot of disagreement about what makes a machine
-a moral agent or whether they can achieve this status at all.
+at all. In other words, the upper bound of the responsibility gap is placed at
+different heights by the different authors.
+
+%Though we find agreement that in order to be responsible, machines must be full
+%moral agents, we will encounter a lot of disagreement about what makes a machine
+%a moral agent or whether they can achieve this status at all.
 
 %We will see that most authors agree that a machine can only be responsible, if
 %it is a full moral agent. This is in line with Strawsons statement that having
@@ -1319,49 +1389,51 @@ a moral agent or whether they can achieve this status at all.
 %In light of this, the question of can machines be responsible can be answered in four different
 %ways: 
 
-The basic positions regarding the question about machine responsibility can be
-summarised in four different ways: Yes, No, Maybe and Kinda.
+%The basic positions regarding the question about machine responsibility can be
+%summarised in four different ways: Yes, No, Maybe and Kinda.
 %\newpage
 
-\subsubsection{How Machines Could Be Responsible}
+%\subsubsection{How Machines Could Be Responsible}
 Who says that and why?
 
 %\textbf{Sparrow: Machines, how ever autonomous they are, cannot suffer, thus they cannot
 %properly be held responsible.}\\
-Sparrow talks in his essay 'Killer Robots' about Autonomous Weapon Systems, but the
-points he makes about moral responsibility are not specific to that particular
-domain and are, thus, generalisable. Sparrow acknowledges that a machine
-can be causally responsible for some action, but denies that this is enough to
-be morally responsible. To be morally responsible is to be open to moral appraisal
-(blame or praise) and as a result to be treated accordingly (punished or
-rewarded). Sparrow then proceeds imagining how punishing an autonomous machine
-might look like. He suggests that a sufficiently intelligent (and therefore
-autonomous) machine would probably have internal states akin to human internal
-states, that can be described as desires and needs. Punishemnt could
-theoretically be done by preventing these desires and needs from fulfillment: If
-they earn wages, machines could be fined; their liberty could be restricted by
-imprisoning them; or, in the most severe case, they could be destroyed as a form
-of capital punishment. However, Sparrow assumes that punishment is only
-punishment if the target suffers as a result. And that is a very demanding
-condition. It would not be enough, he says, that the machine would suffer
-`functionally'. To fulfill our moral demands, the machine's suffering ought to
-have a phenomenological quality to it. Otherwise punishing an autonomous system
-would be no different from punishing a hammer\footnote{Coeckelberg makes a
-similar comparison with a hammer.ZITIEREN}. It wouldn't \textit{really} care.
-This means that, according to Sparrow, automonous machines could potetially be
-responsible, but only if they have the necessary phenomenology with the
-capability to suffer when punished and, consequently, to feel pleasure when
-rewarded. Sparrows argumentation seems to rely strongly on a property view of moral
-responsibility: To be morally responsible requires the phenomenological
-capability to suffer. When it comes to how we could establish whether the
-machine had such a capability or not, against my expectations, Sparrow says that
-all the machine had to do is to convince us that it had it and evoke appropriate
-responses within us humans through its behaviour. This approach heavily
-resembles a process view on phenomenological experience. In that case the
-machines would be \say{full `moral persons'} with moral rights and duties and
-appropriate subjects for moral considerations, that are hitherto reserved for
-human beings. MAYBE I SHOULD TAKE OUT THIS LAST HALF SENTENCE (NO SOURCE) (NOT
-SELF-EVIDENT)
+%Sparrow talks in his essay 'Killer Robots' about Autonomous Weapon Systems, but the
+%points he makes about moral responsibility are not specific to that particular
+%domain and are, thus, generalisable. 
+
+
+Sparrow, for example, acknowledges that a machine can be causally responsible
+for some action, but denies that this is enough to be morally responsible. To be
+morally responsible is to be open to moral appraisal (blame or praise) and as a
+result to be treated accordingly (punished or rewarded). Sparrow then proceeds
+imagining how punishing an autonomous machine might look like. He suggests that
+a sufficiently intelligent (and therefore autonomous) machine would probably
+have internal states akin to human internal states, that can be described as
+desires and needs. Punishemnt could theoretically be done by preventing these
+desires and needs from fulfillment: If they earn wages, machines could be fined;
+their liberty could be restricted by imprisoning them; or, in the most severe
+case, they could be destroyed as a form of capital punishment. However, Sparrow
+assumes that punishment is only punishment if the target suffers as a result.
+And that is a very demanding condition. It would not be enough, he says, that
+the machine would suffer `functionally'. To fulfill our moral demands, the
+machine's suffering ought to have a phenomenological quality to it. Otherwise
+punishing an autonomous system would be no different from punishing a
+hammer\footnote{Coeckelberg makes a similar comparison with a hammer.ZITIEREN}.
+It wouldn't \textit{really} care.  This means that, according to Sparrow,
+automonous machines could potetially be responsible, but only if they have the
+necessary phenomenology with the capability to suffer when punished and,
+consequently, to feel pleasure when rewarded. Sparrows argumentation seems to
+rely strongly on a property view of moral responsibility: To be morally
+responsible requires the phenomenological capability to suffer. When it comes to
+how we could establish whether the machine had such a capability or not, against
+my expectations, Sparrow says that all the machine had to do is to convince us
+that it had it and evoke appropriate responses within us humans through its
+behaviour. This approach heavily resembles a process view on phenomenological
+experience. In that case the machines would be \say{full `moral persons'} with
+moral rights and duties and appropriate subjects for moral considerations, that
+are hitherto reserved for human beings. MAYBE I SHOULD TAKE OUT THIS LAST HALF
+SENTENCE (NO SOURCE) (NOT SELF-EVIDENT)
 
 %PUT HERE A PARAGRAPH ABOUT THE CONCEPTUAL SPACE THAT SPARROW TALKS ABOUT.
 
@@ -1609,7 +1681,7 @@ does not have the demanded qualities but can be considered responsible anyway?
 
 John P. Sullins, for examplem, is not as demanding when it comes to moral responsibility. 
 He writes that a robot can be responsible, if ascribing responsiblity to it
-is the best way to explain its behaviour. This is a process view on
+is the best way to explain its behaviour. This is clearly a process view on
 responsibility. For Sullins assuming responsibility
 comes from a `belief' of duty to do something. This belief must not originate
 from something we might call consciousness or a thought. This is probably the main
@@ -1643,12 +1715,13 @@ boundary for what makes an agent responsible.
 
 %MAKE A NICE TRANSITION TO COECKELBERGS PAPER.
 
-Sullins' position is supported by Mark Coeckelberghs argumentation about the
-moral standing of machines.
+%Sullins' position is supported by Mark Coeckelberghs argumentation about the
+%moral standing of machines.
 
-That boundary entirely falls away in Coeckelbergh (\cite{coeckelbergh2014moral}).
+%That boundary entirely falls away in Coeckelbergh (\cite{coeckelbergh2014moral}).
+Mar Coeckelbergh is even more radical than Sullins.
 
-According to Mark Coeckelberg, there is a mismatch between how we usually think
+According to Coeckelberg, there is a mismatch between how we usually think
 about machines in general and how we \textit{sometimes} act towards them
 (\cite[p. 61]{coeckelbergh2014moral}). We tend to think of machines as
 things and tools that do not have any kind of moral standing. To have a certain
@@ -1682,9 +1755,9 @@ matters most is the relation between the entity itself and the one who ascribes
 the moral status to it. Whether a particular machine is an appropriate object of
 moral considerations, whether it can hold responsibility is for the observer to
 decide. It is a highly subjective decision that strongly depends on the relation
-they have with the machine.This implies that moral status is not only not
+they have with the machine. This implies that moral status is not only not
 objective, but it is also not universal. On this view, there is no correct way
-to view an autonomous system and different people would judge differently.\\
+to view an autonomous system and different people would also judge differently.\\
 Note that Coeckelberghs account is much more permissive compared to everything
 else that we have encountered. Using the Strawsonian terminology: If the
 relation to an entity is such that one develops reactive attitudes towards it,
@@ -1706,8 +1779,9 @@ types of entities can have moral standing.
 	the vitrines diplayed several masks, that were collected from different
 	indigenous tribes from all over the world. One of the spots was empty.
 	The guide explained that the tribe where that mask was taken from, has
-	demanded it back. These masks were inhabited by the ghosts of deceased tribe
-	members and they regarded and treated them as real people.
+	demanded it back. According to the tribes tradition, these masks were
+	inhabited by the ghosts of deceased tribe members and they regarded and
+	treated them as real people.
 \end{example}
 
 Under the standard approach\footnote{Caveats may apply: We are situated in the
@@ -1745,7 +1819,7 @@ can only target artificial moral agents. In that, Tigard disagrees with Smith
 and Vickers about their claim, that machine responsiblity must be the same as
 human responsiblity. He also disagrees with Sparrows point that in order for a
 machine to be responsible it must be punishable - and for it to be punishable,
-it must have the capacity to suffer.  This is a retributivist account of
+it must have the capacity to suffer. This is a retributivist account of
 punishment (\cite[p. 77]{sparrow2007killer}, \cite[p.
 441]{tigard2021artificial}). According to Tigard, there are alternative
 conceptions to punishment and they do not necessarily require the suffering
@@ -1782,6 +1856,12 @@ status. In that sense, responsibility is something that is only ascibed by the
 observer and has no underlying universality to it.\\
 Tigard relies on the pluralism of responsibility and says that we might
 expand our current notions by developing some sort of artificial responsibility.\\
+
+
+It is difficult to properly sort these positions in the Advancement-diagram. If
+I were to guess, it would probably look something like that:\\
+
+
 
 
 
@@ -1833,7 +1913,21 @@ expand our current notions by developing some sort of artificial responsibility.
 %responsible is a precondition for the machine to be an autonomous agent, not the
 %other way around. 
 
-In a sense, the positions from the previous section all advocate for leaving behind
+In a sense, the positions from the previous two sections argue that it is
+possible that machines outgrow the instrumentalist theory of technology. As a
+reminder, the instrumentalist theory supposes that computers and machines and
+all their derivatives are tools that are constructed with a human goal in mind
+and do not have their own ends (\cite[p. 308]{gunkel2020mind}). It follows that
+the responsibility for any action that originates in this technology should be
+ascribed to the relevant humans. The arguments from the last section invite us
+to abandon this theory by permitting the (at least conceptual)
+possibility of technology that is not a tool, but a moral agent with its own
+goals. Naturally, there are voices that hold on to the instrumentalist
+theory and doubt that machines can (or should) ever be responsible agents. Let
+us explore what they have to say.
+
+
+all advocate for leaving behind
 the instrumentalist theory of technology. As a reminder, the instrumentalist theory
 supposes that computers and machines and all their derivatives are tools
 that are constructed with a human goal in mind and do not have their own ends
@@ -1855,20 +1949,18 @@ those and only those actions that are based on evaluative judgements. Can
 machines have evaluative judgements?
 SHOULD I PUT IN THIS PARAGRAPH?
 
-\newpage
 Deborah Johnson is one of these voices (\cite{johnson2006computer}). She argues
 that no man-made artifact can ever be a moral agent on its own. Her postion rests on, what
 she calls, the \textit{standard account of moral agency and action} (\cite[p.
 198]{johnson2006computer}). In order for an action to be open for moral
-evaluation, it must meet five conditions (\cite[p.
-198]{johnson2006computer}):
+evaluation, it must meet five conditions (\cite[p. 198]{johnson2006computer}):
 
 \begin{enumerate}
 	\item The agent must have internal mental states (such as desires,
 		beliefs, wishes) that motivate a behaviour. One of these states
 		is an intending to act. Without that, there would not be an
 		action. Johnson says that these internal states are the
-		\textit{reasons} for an action (\cite[p.  198]{johnson2006computer}).
+		\textit{reasons} for an action (\cite[p. 198]{johnson2006computer}).
 	\item Something happens. There is an external and embodied behaviour.
 	\item The behaviour is caused by the agents internal states as a
 		rational means to accomplish their end.
@@ -1918,7 +2010,7 @@ them. Therfore, they are responsible for the machines.
 
 While I do believe that Johnson holds an important position, that is in line
 with a commonplace conception of technology, I find that she fails to
-convincingly demonstrate that machines have not intedings to act. She claims that
+convincingly demonstrate that machines do not have intedings to act. She claims that
 intendings to act arise from an agents freedom. Humans have freedom because
 their character is non-deterministic, that is why they can have intendings to
 act. She further says that machines can also behave in a non-deterministic way.
@@ -1928,14 +2020,22 @@ freedom that humans are so blessed to enjoy. (may enjoy.)\\ It would then be a
 mistake to to claim that they can ever have the relevant type of freedom.
 Instead she asserts that computers can never have it (\cite[p.
 203]{johnson2006computer}). Here we see the jump in Johnsons logic. She
-acknowledges an epistemological limitation and concludes that this limitation
+acknowledges an epistemological limitation and concludes that it
 implies the metaphysical difference.\\
 
 Johnsons second point is a bit more convincing. In stating that the
-intentionality that autonomous systems have is put into them by humans, the
+intentionality that autonomous systems have is always put into them by humans, the
 instrumentalist theory binds them together and makes the humans responsible.
 They are the ones who determine the goal, the use, the purpose of technology -
-not technology itself. I am missing a comment about why this will also never be
+not technology itself. 
+
+In short, Johnsons position denies the responsibility gap and asserts that
+humans will always have the responsibility for their machines. The reason is
+that it is an inherent property of all technology - no matter how advanced or
+autnomous - that its goals and functionality are defined by humans, not by the
+machines.
+
+I am missing a comment about why this will also never be
 a case in the future, why there is no conceptual space for an autonomus system
 with its own intentionality and goals.\\
 
@@ -1965,16 +2065,16 @@ anyway would definetely benefit from these artificial interactions(\cite[p.
 Machines that behave responsibly and human like 
 
 Deborah Johnson says that machines \textit{will} never have their own ends.
-Joanna Bryson says that machines \textit{should} never have their own ends
-(\cite{bryson2010robots}). In her paper, she writes that robots should remain
-subordinates. They should be tools not moral agents. There is a moral cost in
-trying to make them agents which, for Bryson, is too high.
-Accepting machines as responsible agents would necessarily lead to their
-humanisation. They would be treated as peers. People would befriend them and
-spend a lot of their \say{social capital} on them. This means, that these people
-would have less capacity to socialise with other humans, their actual peers.
-Bryson suspects that people would actually prefer interactions with robots,
-because they would be easier and not as messy as true human-human interactions 
+%Joanna Bryson says that machines \textit{should} never have their own ends
+%(\cite{bryson2010robots}). In her paper, she writes that robots should remain
+%subordinates. They should be tools not moral agents. There is a moral cost in
+%trying to make them agents which, for Bryson, is too high.
+%Accepting machines as responsible agents would necessarily lead to their
+%humanisation. They would be treated as peers. People would befriend them and
+%spend a lot of their \say{social capital} on them. This means, that these people
+%would have less capacity to socialise with other humans, their actual peers.
+%Bryson suspects that people would actually prefer interactions with robots,
+%because they would be easier and not as messy as true human-human interactions 
 
 
 
@@ -2001,6 +2101,70 @@ because they would be easier and not as messy as true human-human interactions
 %Hybrid responisibility
 %
 %No, we cant: Here is why:
+
+\section{Filling the Gap}
+
+The last section was an exploration of the responsibility gap and its
+boundaries. We have found that, depending on ones conception of moral
+responsibility and agency, the problem of the gap presents itself in different
+lights. There are conceptions, where the gap does not even exist and the
+challenge disappears. For other conceptions though, the we see a gap, the
+conceptual space, that Sparrow talks about, where ascription of responsibility
+is problematic. How should we deal with this?
+
+One solution is to cease the development of such autonomous robots entirely.
+Relating to AWS, Sparrow argues that in a just war, for every action there must be a
+responsible person for it (\cite[p. 67]{sparrow2007killer}). If that is not
+given, the war is unjust and immoral. Deploying AWS would result in situations
+where no one can justly be held morally responsible and that would be unethical
+(\cite[p. 74]{sparrow2007killer}). At first glance, it is reasonable to apply
+this view to other domains as well: If a machine could autonomously do something
+that has a moral risk attached to it and nobody was responsible, the situation
+would seem undesirable. Hence, such machines should not exist at all.\\
+
+There are many people who disagree with Sparrow, in the sense that they claim
+that the responsibility gap can be filled\footnote{It becomes increasingly
+	difficult to proplerly map the different positions onto the metaphor the
+	the \textit{gap}. Does it make sense to speak of the gap being filled?
+	Arguably, if it is possible to `fill it', it probably does not exist.
+	The more we use the metaphor, the more it wears out. However, it is not
+	the metaphor that is important. What is important, is how we deal with
+	the question of responsibility.}.
+Torben Swoboda thinks that the programmer should be responsible for the
+machine's conduct as part of their professional code
+(\cite{swoboda2017autonomous}). This position makes sense, when looking at how
+AI systems are being developed. In particular, Swoboda refers to artificial
+neural networks (\acrshort{ann}). They are a specific type of machine learning
+technology that learns to transform input into a desired output to solve a
+predefined task. For that the programmer has to decide what kind of input the ANN
+will receive. Every task can be represented in a multitude of ways and the
+programmer has to come up with a digital representation of the input that makes
+the most sense. Further, the programmer needs a data set of inputs with
+corresponding desired outputs. The ANN learns typically by receiving a massive
+amount of inputs; in the beginning of the learning phase the network will
+produce random outputs that do not make any sense, but throughout the process
+the produced outputs will be compared to the desired outputs. Then the
+parameters of the network will be tweaked and nudged to change how it produces
+its outputs until it performs well (meaning that it will generate a desired
+output for a sufficient portion of the given inputs). This whole procedure is
+under the programmer's control and the performance of the system depends
+strongly on the quality of the dataset. Further, and this is probably the most
+important argument that Swoboda contributes, the system does not have to learn
+anymore. It only learns in the controlled training environment. Before it is
+applied in the real world, the system will be tested for performance and if it
+passes, it must not learn anymore. Moreover, if the system continues to learn,
+the performance might even change for the worse (\cite[p.
+307-309]{swoboda2017autonomous}). While the AI might still produce specific
+outputs that are not predictable, it still has an overall behaviour that
+developed under the programmer's supervision and since the learning phase has
+been completed, that overall behaviour will not change. 
+
+
+
+\newpage
+Sparrow himself thinks that the responsibility gap should be avoided.
+
+A convincing and realistic proposal is made by 
 
 \section{Real World Problems}
 \subsection{Autonomous Weapon Systems}
