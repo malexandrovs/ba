@@ -50,6 +50,44 @@
       \field{pages}{63\bibrangedash 74}
       \range{pages}{12}
     \endentry
+    \entry{champagne2015bridging}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=1aa7f0ba6841d4d0abe41f8cee1fc3f1}{%
+           family={Champagne},
+           familyi={C\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b8d447de191070e461d93cb21022fd3b}{%
+           family={Tonkens},
+           familyi={T\bibinitperiod},
+           given={Ryan},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{1a8cebc019d0aa6329313c024b8fc7bc}
+      \strng{fullhash}{1a8cebc019d0aa6329313c024b8fc7bc}
+      \strng{bibnamehash}{1a8cebc019d0aa6329313c024b8fc7bc}
+      \strng{authorbibnamehash}{1a8cebc019d0aa6329313c024b8fc7bc}
+      \strng{authornamehash}{1a8cebc019d0aa6329313c024b8fc7bc}
+      \strng{authorfullhash}{1a8cebc019d0aa6329313c024b8fc7bc}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Philosophy \& Technology}
+      \field{number}{1}
+      \field{title}{Bridging the responsibility gap in automated warfare}
+      \field{volume}{28}
+      \field{year}{2015}
+      \field{pages}{125\bibrangedash 137}
+      \range{pages}{13}
+    \endentry
     \entry{coeckelbergh2014moral}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=cfd4ef5d8e7e582d15ecead767493fc1}{%
