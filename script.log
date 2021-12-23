@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.12.16)  21 DEC 2021 15:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.12.16)  22 DEC 2021 21:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1087,7 +1087,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2205--2234
  []
 
 [29] [30] [31] [32] [33] (./script.acr) (./script.gls)
-Overfull \hbox (0.19986pt too wide) in paragraph at lines 2373--2373
+Overfull \hbox (0.19986pt too wide) in paragraph at lines 2376--2376
 [][]\OT1/cmr/m/n/10 Misselhorn, Catrin (2018). \OT1/cmr/m/it/10 Grund-fra-gen d
 er Maschinenethik: Reclams Universal-
  []
@@ -1119,7 +1119,7 @@ cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></
 usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-dist/fonts/ty
 pe1/public/cm-super/sfrm1000.pfb>
-Output written on script.pdf (36 pages, 272899 bytes).
+Output written on script.pdf (36 pages, 272958 bytes).
 PDF statistics:
  177 PDF objects out of 1000 (max. 8388607)
  123 compressed objects within 2 object streams
