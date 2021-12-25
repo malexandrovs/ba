@@ -738,6 +738,44 @@
       \verb https://doi.org/10.1007%2Fs13347-020-00414-7
       \endverb
     \endentry
+    \entry{tufekci2016}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c37796737bfd689dd28da0a8de150f13}{%
+           family={Tufekci},
+           familyi={T\bibinitperiod},
+           given={Zeynep},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {TED}%
+      }
+      \strng{namehash}{c37796737bfd689dd28da0a8de150f13}
+      \strng{fullhash}{c37796737bfd689dd28da0a8de150f13}
+      \strng{bibnamehash}{c37796737bfd689dd28da0a8de150f13}
+      \strng{authorbibnamehash}{c37796737bfd689dd28da0a8de150f13}
+      \strng{authornamehash}{c37796737bfd689dd28da0a8de150f13}
+      \strng{authorfullhash}{c37796737bfd689dd28da0a8de150f13}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Machine intelligence makes human morals more important | Zeynep Tufekci}
+      \field{urlday}{25}
+      \field{urlmonth}{12}
+      \field{urlyear}{2021}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.ted.com/talks/zeynep_tufekci_machine_intelligence_makes_human_morals_more_important
+      \endverb
+      \verb{url}
+      \verb https://www.ted.com/talks/zeynep_tufekci_machine_intelligence_makes_human_morals_more_important
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

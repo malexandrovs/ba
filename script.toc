@@ -26,20 +26,12 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4}Filling the Gap}{27}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Real World Problems}{32}{}%
+\contentsline {section}{\numberline {5}Discussion}{32}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1}Autonomous Weapon Systems}{32}{}%
+\contentsline {section}{\numberline {6}Conclusion}{35}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2}Healthcare}{32}{}%
+\contentsline {section}{\numberline {7}Meditation}{35}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3}COMPAS}{32}{}%
+\contentsline {section}{\numberline {8}Disclaimers}{35}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Discussion}{32}{}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}Conclusion}{33}{}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8}Meditation}{33}{}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9}Disclaimers}{33}{}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10}Acknowledgements}{33}{}%
+\contentsline {section}{\numberline {9}Acknowledgements}{36}{}%
