@@ -88,6 +88,50 @@
       \field{pages}{125\bibrangedash 137}
       \range{pages}{13}
     \endentry
+    \entry{char2018implementing}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=f8204bb106ccb85368754762f93c386f}{%
+           family={Char},
+           familyi={C\bibinitperiod},
+           given={Danton\bibnamedelima S},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=081581b9a4dc52a848c247c6b5944e70}{%
+           family={Shah},
+           familyi={S\bibinitperiod},
+           given={Nigam\bibnamedelima H},
+           giveni={N\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6eff63860550c2ffe4d82cde6ed6a700}{%
+           family={Magnus},
+           familyi={M\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {NIH Public Access}%
+      }
+      \strng{namehash}{979e8c71c4eda2876f9a8afeefaecfec}
+      \strng{fullhash}{979e8c71c4eda2876f9a8afeefaecfec}
+      \strng{bibnamehash}{979e8c71c4eda2876f9a8afeefaecfec}
+      \strng{authorbibnamehash}{979e8c71c4eda2876f9a8afeefaecfec}
+      \strng{authornamehash}{979e8c71c4eda2876f9a8afeefaecfec}
+      \strng{authorfullhash}{979e8c71c4eda2876f9a8afeefaecfec}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The New England journal of medicine}
+      \field{number}{11}
+      \field{title}{Implementing machine learning in health care—addressing ethical challenges}
+      \field{volume}{378}
+      \field{year}{2018}
+      \field{pages}{981}
+      \range{pages}{1}
+    \endentry
     \entry{coeckelbergh2014moral}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=cfd4ef5d8e7e582d15ecead767493fc1}{%
@@ -119,6 +163,56 @@
       \field{year}{2014}
       \field{pages}{61\bibrangedash 77}
       \range{pages}{17}
+    \endentry
+    \entry{faisal2019understanding}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=e0f7fc25fd2ec6cafc89cca9b5aaf1f8}{%
+           family={Faisal},
+           familyi={F\bibinitperiod},
+           given={Asif},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=22c0a4f8542f1ff188f2ce308d0e2aa7}{%
+           family={Kamruzzaman},
+           familyi={K\bibinitperiod},
+           given={Md},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=77cc6febccff70eeb847689555bfe877}{%
+           family={Yigitcanlar},
+           familyi={Y\bibinitperiod},
+           given={Tan},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d9b762f7dfc7c0b162f7f71be95c514b}{%
+           family={Currie},
+           familyi={C\bibinitperiod},
+           given={Graham},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {JSTOR}%
+      }
+      \strng{namehash}{3e5eb543fe774bc9a45266e878210fd1}
+      \strng{fullhash}{9d7b3f5fc7edc631310126a852b87664}
+      \strng{bibnamehash}{3e5eb543fe774bc9a45266e878210fd1}
+      \strng{authorbibnamehash}{3e5eb543fe774bc9a45266e878210fd1}
+      \strng{authornamehash}{3e5eb543fe774bc9a45266e878210fd1}
+      \strng{authorfullhash}{9d7b3f5fc7edc631310126a852b87664}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of transport and land use}
+      \field{number}{1}
+      \field{title}{Understanding autonomous vehicles}
+      \field{volume}{12}
+      \field{year}{2019}
+      \field{pages}{45\bibrangedash 72}
+      \range{pages}{28}
     \endentry
     \entry{gunkel2020mind}{article}{}
       \name{author}{1}{}{%
@@ -198,6 +292,7 @@
       \strng{authorbibnamehash}{5c7d803db3938057cf64122f7917f181}
       \strng{authornamehash}{5c7d803db3938057cf64122f7917f181}
       \strng{authorfullhash}{5c7d803db3938057cf64122f7917f181}
+      \field{extraname}{1}
       \field{sortinit}{J}
       \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
       \field{extradatescope}{labelyear}
@@ -211,6 +306,73 @@
       \field{year}{2006}
       \field{pages}{195\bibrangedash 204}
       \range{pages}{10}
+    \endentry
+    \entry{johnson2015technology}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5c7d803db3938057cf64122f7917f181}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={Deborah\bibnamedelima G},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{5c7d803db3938057cf64122f7917f181}
+      \strng{fullhash}{5c7d803db3938057cf64122f7917f181}
+      \strng{bibnamehash}{5c7d803db3938057cf64122f7917f181}
+      \strng{authorbibnamehash}{5c7d803db3938057cf64122f7917f181}
+      \strng{authornamehash}{5c7d803db3938057cf64122f7917f181}
+      \strng{authorfullhash}{5c7d803db3938057cf64122f7917f181}
+      \field{extraname}{2}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Business Ethics}
+      \field{number}{4}
+      \field{title}{Technology with no human responsibility?}
+      \field{volume}{127}
+      \field{year}{2015}
+      \field{pages}{707\bibrangedash 715}
+      \range{pages}{9}
+    \endentry
+    \entry{marino2006learning}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d50a8efe3a73da293557d5fcd4c1af72}{%
+           family={Marino},
+           familyi={M\bibinitperiod},
+           given={Dante},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=392f98611c45118f84b61be39e3bbba5}{%
+           family={Tamburrini},
+           familyi={T\bibinitperiod},
+           given={Guglielmo},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{adf1585a33fb3db8eada3f57ad281b90}
+      \strng{fullhash}{adf1585a33fb3db8eada3f57ad281b90}
+      \strng{bibnamehash}{adf1585a33fb3db8eada3f57ad281b90}
+      \strng{authorbibnamehash}{adf1585a33fb3db8eada3f57ad281b90}
+      \strng{authornamehash}{adf1585a33fb3db8eada3f57ad281b90}
+      \strng{authorfullhash}{adf1585a33fb3db8eada3f57ad281b90}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The International Review of Information Ethics}
+      \field{title}{Learning robots and human responsibility}
+      \field{volume}{6}
+      \field{year}{2006}
+      \field{pages}{46\bibrangedash 51}
+      \range{pages}{6}
     \endentry
     \entry{Matthias_2004}{article}{}
       \name{author}{1}{}{%
@@ -253,6 +415,50 @@
       \verb{url}
       \verb https://doi.org/10.1007%2Fs10676-004-3422-1
       \endverb
+    \endentry
+    \entry{milano2020recommender}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=3e57651a342176eabc9514aae2ef18e8}{%
+           family={Milano},
+           familyi={M\bibinitperiod},
+           given={Silvia},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f08ea3007f7a869b5d904302bb81a37c}{%
+           family={Taddeo},
+           familyi={T\bibinitperiod},
+           given={Mariarosaria},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0d57a43cc17e895c38b6d1656af4ece5}{%
+           family={Floridi},
+           familyi={F\bibinitperiod},
+           given={Luciano},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{fbb3fbcedf427e7541053f3790d9d213}
+      \strng{fullhash}{fbb3fbcedf427e7541053f3790d9d213}
+      \strng{bibnamehash}{fbb3fbcedf427e7541053f3790d9d213}
+      \strng{authorbibnamehash}{fbb3fbcedf427e7541053f3790d9d213}
+      \strng{authornamehash}{fbb3fbcedf427e7541053f3790d9d213}
+      \strng{authorfullhash}{fbb3fbcedf427e7541053f3790d9d213}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{AI \& SOCIETY}
+      \field{number}{4}
+      \field{title}{Recommender systems and their ethical challenges}
+      \field{volume}{35}
+      \field{year}{2020}
+      \field{pages}{957\bibrangedash 967}
+      \range{pages}{11}
     \endentry
     \entry{misselhorn2018grundfragen}{book}{}
       \name{author}{1}{}{%
